@@ -16,6 +16,7 @@ const Section5 = () => {
                     </div>
                 </div>
                 <h5>Altura a medir</h5>
+                <h5>Temporal</h5>
                 <h2>Para tu empresa</h2>
                 <h4>Capacite a sus equipos con capacitación continua, lanzamientos semanales, paneles e informes de participación, así como guías de estudio personalizadas según sus necesidades.</h4>
                 <h4>Descubra nuestra propuesta para su empresa:</h4>
