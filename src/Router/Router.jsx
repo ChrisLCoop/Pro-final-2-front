@@ -4,9 +4,15 @@ import Section2 from '../layouts/SECTION2/Section2'
 import Header from '../layouts/HEADER/Header'
 import Home from '../pages/HOME/Home'
 
+
+
+
+
+
 const Router = () => {
   return (
     <BrowserRouter>
+        
         <Header></Header>
         <Routes>
             <Route path='/' element={<Home></Home>}> </Route>
