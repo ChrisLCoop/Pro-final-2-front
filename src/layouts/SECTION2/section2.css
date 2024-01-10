@@ -1,0 +1,255 @@
+
+.content-section-2{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 4rem;
+}
+
+.content-2-blq1{
+    display: flex;
+}
+
+.frame-info-ct2-a{
+    width: 35.625rem;
+    height: 25.25rem;
+    background-image: url(../../assets/console-prompt.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+}
+
+.dtl-cr2-tt{
+    width: 20.75rem;
+    height: 4.5rem;
+    background-color: #092d5d;
+    border-radius: 0rem 2.5rem 2.5rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dtl-cr2-tt h3{
+    color: #fff;
+    font-size: 0.875rem;
+    width: 80%;
+    line-height: 1.5rem;
+}
+
+.dtl-cr2-st-ct{
+    padding-top: 3rem;
+}
+
+.dtl-cr2-st-ct ul{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: end;
+    
+}
+
+.dtl-cr2-st-ct ul li{
+    margin: 8px 20px;
+    padding-bottom: 0.8rem;
+    
+}
+
+
+
+.link-reference-st2{
+    text-decoration: none;
+    color: #2BDEFD;
+    font-size: 0.875rem;
+    padding: 0.5rem 1.2rem;
+    border: 2px solid #2A7AE4;
+    border-radius: 1rem;
+}
+
+.link-reference-st2:hover{
+    color: #fff;
+}
+
+.cont2-fr-b{
+    padding: 3rem;
+    margin: 0 auto;
+    
+}
+
+.cont2-fr-b h2{
+    font-size: 3.75rem;
+    color: #d7f9ff;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.cont2-fr-b p{
+    font-size: 1rem;
+    color: #98D4DE;
+}
+
+.content-2-blq2{
+    display: flex;
+    padding-top: 4rem;
+}
+
+
+.cont2-fr-c{
+    flex: 50%;
+    
+}
+
+.cont2-fr-d{
+    flex: 50%;
+}
+
+.cont-fr-c-t{
+    width: 70%;
+}
+
+.cont-fr-c-t h2{
+    font-size: 3.75rem;
+    color: #d7f9ff;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.cont-fr-c-t p{
+    font-size: 1rem;
+    color: #98D4DE;
+    padding: 2rem 0;
+}
+
+.cont-ct2-trui-dt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont-ct2-trui-dt-b{
+    background-image: url(../../assets/video-default.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-video-link-ct2{
+    transform: scale(1.5);
+}
+
+/*---- btn---*/
+
+.btn-link-s2{
+    text-decoration: none;
+}
+
+.cont-matricula-s2c{
+    position: relative;
+    width: 280px;
+    height: 50px;
+    background-color: var(--color-especialverdoso);
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 0.4s;
+}
+
+.cont-matricula-s2c:hover{
+    background-color: #fff;
+    transform: translateY(2px);
+}
+
+.cont-matricula-s2c p{
+    font-weight: 600;
+    font-size: 1rem;
+    
+}
+
+.cont-matricula-s2c::after{
+    content: "";
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    margin: -15px;
+    width:30px;
+    height:30px;
+    transform:rotate(45deg);
+    background-color:var(--border-triangular-btn); 
+    
+}
+
+.cont-matricula-s2c p{
+    color: #000;
+}
+
+/*------*/
+
+.content-2-blq3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-sct2-dt{
+    width: 376px;
+    height: 410px;
+    position: relative;
+    overflow:hidden;
+    
+    background-color: #021017;
+    
+    padding: 1rem;
+    /*
+    clip-path: polygon(
+    0 0%,
+    0% 0,
+    90% 0,
+    100% 0%,
+    100% 90%,
+    90% 100%,
+    0% 100%,
+    0% 90%,
+    0% 10%
+    )*/
+    clip-path:polygon(0 0,100% 0,100% calc(100% - 25px),calc(100% - 25px) 100%,0 100%);
+    
+    border: solid #012640 2px;
+    padding: 2.5rem;
+}
+
+.card-sct2-dt::after{
+    content: "";
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    border: solid #012640 2.3px;
+    margin: -1.06rem;
+    width:1.875rem;
+    height:1.875rem;
+    transform:rotate(45deg);
+    background-color:var(--border-triangular-btn);
+}
+
+.card-sct2-dt h3{
+    font-size: 1.5rem;
+    color: #2BDEFD;
+    padding: 2rem 0;
+}
+
+.card-sct2-dt p{
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1.6rem;
+}
+
+.img-sect2-ic-d{
+    width: 4rem;
+    height: 4rem;
+    filter: invert(80%) sepia(48%) saturate(3035%) hue-rotate(151deg) brightness(102%) contrast(98%);
+}
+
+
+
+
+
