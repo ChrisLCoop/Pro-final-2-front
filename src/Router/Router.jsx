@@ -5,10 +5,6 @@ import Header from '../layouts/HEADER/Header'
 import Home from '../pages/HOME/Home'
 
 
-
-
-
-
 const Router = () => {
   return (
     <BrowserRouter>
