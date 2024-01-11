@@ -3,6 +3,7 @@ import React from 'react'
 import Section2 from '../layouts/SECTION2/Section2'
 import Header from '../layouts/HEADER/Header'
 import Home from '../pages/HOME/Home'
+import Cursos from '../pages/CURSOS/Cursos'
 
 const Router = () => {
   return (
@@ -11,6 +12,7 @@ const Router = () => {
         <Routes>
             <Route path='/' element={<Home></Home>}> </Route>
             <Route path='/sec2' element={<Section2></Section2>}> </Route>
+            <Route path='/cursos' element={<Cursos></Cursos>}> </Route>
         </Routes>
     </BrowserRouter>
   )
