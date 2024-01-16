@@ -1,0 +1,137 @@
+
+.content-sect-06-gn{
+    background-image: url(../../assets/bg-cases.webp);
+    width: 100%;
+    height: 594px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.frame-blq1-sc-gb h2{
+    font-family: "Chakra Petch",sans-serif;
+    font-size: 40px;
+    color: #fff;
+}
+
+.frame-blq1-sc-gb p{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #fff;
+    line-height: 2rem;
+}
+
+.fram-vsnl-sct-06{
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.frame-blq1-sc-gb{
+    flex: 35%;
+}
+
+.frame-blq2-gb-sc{
+    flex: 65%;
+}
+
+/*---cards-----*/
+
+.wrapper{
+    position: relative;
+    width: 100%;
+}
+
+.img-sec06-arrow{
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+  
+}
+
+.img-sec06-arrow:active{
+    transform: translateY(-50%) scale(0.85);
+}
+
+.img-sec06-arrow:first-child{
+    left: -22px;
+}
+
+.img-sec06-arrow:last-child{
+    right: -22px;
+}
+
+.wrapper .carousel{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 12px);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    border-radius: 8px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel.no-transition {
+    scroll-behavior: auto;
+}
+
+.carousel.dragging {
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging .card-06sc {
+    cursor: grab;
+    user-select: none;
+}
+
+.carousel :where(.card-06sc, .img) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel .card-06sc {
+    scroll-snap-align: start;
+    /*
+    height: 342px;
+    list-style: none;
+    background: #fff;
+    cursor: pointer;
+    padding-bottom: 15px;
+    flex-direction: column;
+    border-radius: 8px;*/
+
+}
+
+.link-sc06-cr-tech{
+    text-decoration: none;
+}
+
+.cont-info-sect-card-06{
+    background-image: url(../../assets/roberta_arcoverde.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}

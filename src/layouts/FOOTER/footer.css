@@ -1,0 +1,34 @@
+.frame-footer-01-app-link{
+    background: #051d3b;
+    color: #fff;
+    
+}
+
+.cont-all-sec01-footer-inf{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 5rem;
+}
+
+.cards-sect-a-frt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont-link-footer-redes-sociales{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.cont-ff-tnl-inf-02 h3{
+    text-align: right;
+    padding-bottom: 1rem;
+}
+
+.cont-link-r-social-ttr img{
+    width: 35px;
+    height: 35px;
+    filter: invert(1);
+    
+}
