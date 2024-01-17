@@ -1,20 +1,20 @@
 import React from 'react'
 import '../../pages/CURSOS/cursos.css'
-
+import { Link } from 'react-router-dom'
  function PostHeader() {
   return (
    <>
     <section  class="cursos">
     <div class="hcursos">
         <ul class="ulcursos">
-            <li class="licursos"><a class="acursos" href="">PROGRAMACION</a></li>
-            <li class="licursos"><a class="acursos" href="">FRONT-END</a></li>
-            <li class="licursos"><a class="acursos" href="">DATA SCIENCE</a></li>
-            <li class="licursos"><a class="acursos" href="">INTELIGENCIA ARTIFICIAL</a></li>
-            <li class="licursos"><a class="acursos" href="">DEVOPS</a></li>
-            <li class="licursos"><a class="acursos" href="">UX AND DESIGN</a></li>
-            <li class="licursos"><a class="acursos" href="">MOBILE</a></li>
-            <li class="licursos"><a class="acursos" href="">INNOVACION Y GESTION</a></li>
+            <li class="licursos"><Link class="acursos" to="/cursos">INTELIGENCIA ARTIFICIAL</Link></li>
+            <li class="licursos"><Link class="acursos" to="/cursos2">FRONT-END</Link></li>
+            <li class="licursos"><Link class="acursos" to="/cursos3">DATA SCIENCE</Link></li>
+            <li class="licursos"><Link class="acursos" to="/cursos4">PROGRAMACION</Link></li>
+            <li class="licursos"><Link class="acursos" to="/cursos5">DEVOPS</Link></li>
+            <li class="licursos"><Link class="acursos" to="/cursos6">UX AND DESIGN</Link></li>
+            <li class="licursos"><Link class="acursos" to="/cursos7">MOBILE</Link></li>
+            <li class="licursos"><Link class="acursos" to="/cursos8">INNOVACION Y GESTION</Link></li>
         </ul>
     </div>
     </section>
