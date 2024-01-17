@@ -10,8 +10,7 @@ import Contenedor6 from "../../layouts/Contenedor6";
 import Contenedor7 from "../../layouts/Contenedor7";
 import Contenedor8 from "../../layouts/Contenedor8";
 import Contenedor9 from "../../layouts/Contenedor9";
-import Seperador from "../../layouts/separador";
-import Separador from "../../layouts/separador";
+import Separador from "../../layouts/Separador";
 import Contenedor10 from "../../layouts/Contenedor10";
 import Contenedor11 from "../../layouts/Contenedor11";
 import Contenedor12 from "../../layouts/Contenedor12";
@@ -32,12 +31,10 @@ const Como_funciona = () => {
             <Contenedor7></Contenedor7>
             <Contenedor8></Contenedor8>
             <Contenedor9></Contenedor9>
-            <Separador></Separador>
             <Contenedor10></Contenedor10>
             <Contenedor11></Contenedor11>
             <Separador></Separador>
             <Contenedor12></Contenedor12>
-            <Separador></Separador>
             <Footer></Footer>
     </main>
     )
