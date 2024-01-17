@@ -3,6 +3,8 @@ import React from 'react'
 import Section2 from '../layouts/SECTION2/Section2'
 import Header from '../layouts/HEADER/Header'
 import Home from '../pages/HOME/Home'
+import ParaEmpresas from '../pages/EMPRESAS/ParaEmpresas'
+
 
 
 const Router = () => {
@@ -13,6 +15,7 @@ const Router = () => {
         <Routes>
             <Route path='/' element={<Home></Home>}> </Route>
             <Route path='/sec2' element={<Section2></Section2>}> </Route>
+            <Route path='/para-empresas' element={<ParaEmpresas></ParaEmpresas>}> </Route>
         </Routes>
     </BrowserRouter>
   )
