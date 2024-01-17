@@ -24,7 +24,7 @@ const Header = () => {
                         <p>COMO FUNCIONA</p>
                     </div>
                 </Link>
-                <Link className='btn-link-a' to="">
+                <Link className='btn-link-a' to="/cursos">
                     <div className="cont-btn-t">
                         <p>PARA EMPRESAS</p>
                     </div>
