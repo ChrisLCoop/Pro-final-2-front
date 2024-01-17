@@ -19,7 +19,7 @@ const Header = () => {
         </div>
         <div className="comp-st-1">
             <div className="cont-ld-iz">
-                <Link className='btn-link-a' to="/sec2">
+                <Link className='btn-link-a' to="/c_funciona">
                     <div className="cont-btn-t">
                         <p>COMO FUNCIONA</p>
                     </div>

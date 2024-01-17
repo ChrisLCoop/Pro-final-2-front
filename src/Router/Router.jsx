@@ -11,12 +11,11 @@ import Cursos5 from '../pages/CURSOS/Cursos5'
 import Cursos6 from '../pages/CURSOS/Cursos6'
 import Cursos7 from '../pages/CURSOS/Cursos7'
 import Cursos8 from '../pages/CURSOS/Cursos8'
-
+import Como_funciona from '../pages/C_FUNCIONA/Como_funciona'
 
 const Router = () => {
   return (
     <BrowserRouter>
-        
         <Header></Header>
         <Routes>
             <Route path='/' element={<Home></Home>}> </Route>
@@ -29,6 +28,7 @@ const Router = () => {
             <Route path='/cursos6' element={<Cursos6></Cursos6>}> </Route>
             <Route path='/cursos7' element={<Cursos7></Cursos7>}> </Route>
             <Route path='/cursos8' element={<Cursos8></Cursos8>}> </Route>
+            {<Route path='/c_funciona' element={<Como_funciona></Como_funciona>}></Route>}
         </Routes>
     </BrowserRouter>
   )
