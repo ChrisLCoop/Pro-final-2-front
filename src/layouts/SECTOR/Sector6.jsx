@@ -1,5 +1,8 @@
 import React from 'react'
 import '../../pages/CURSOS/cursos.css'
+import imagen11 from '../../assets/imgcurso/icon-plan-premium.1698657911.svg'
+import imagen12 from '../../assets/imgcurso/icon-plan-premium.1698657912.svg'
+
 function Sector6() {
   return (
     <>
@@ -12,7 +15,7 @@ function Sector6() {
         <div class="cursos8-2-1">
             <div class="hcursos8-1">
                 <div> 
-                    <img src="https://www.alura.com.br/assets/img/planosPagamento/icon-plan-premium.1698657911.svg" alt=""/>
+                    <img src={imagen11} alt=""/>
                     <p class="plus">PLUS</p></div>
                 <div><p>De $1899</p></div>
             <div class="precio8">
@@ -32,7 +35,7 @@ function Sector6() {
         <div class="cursos8-2-2">
             <div class="hcursos8-1">
                 <div> 
-                    <img src="https://www.alura.com.br/assets/img/planosPagamento/icon-plan-premium.1698657911.svg" alt=""/>
+                    <img src={imagen12} alt=""/>
                     <p class="plus">PLUS</p></div>
                 <div><p>De $2400</p></div>
             <div class="precio8">

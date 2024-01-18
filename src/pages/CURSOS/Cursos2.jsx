@@ -3,10 +3,10 @@ import './cursos.css'
 import PostHeader from '../../layouts/SECTOR/PostHeader'
 import Sector12 from '../../layouts/SECTOR/Sector12'
 import Sector2 from '../../layouts/SECTOR/Sector2'
-import Sector3 from '../../layouts/SECTOR/Sector3'
-import Sector3B from '../../layouts/SECTOR/Sector3B'
-import Sector4 from '../../layouts/SECTOR/Sector4'
-import Sector5 from '../../layouts/SECTOR/Sector5'
+import Sector32 from '../../layouts/SECTOR/Sector32'
+import Sector3B2 from '../../layouts/SECTOR/Sector3B2'
+import Sector42 from '../../layouts/SECTOR/Sector42'
+import Sector52 from '../../layouts/SECTOR/Sector52'
 import Sector6 from '../../layouts/SECTOR/Sector6'
 import Prefooter from '../../layouts/SECTOR/Prefooter'
 function Cursos2() {
@@ -16,10 +16,10 @@ function Cursos2() {
       <PostHeader/>
       <Sector12/>
       <Sector2/>
-      <Sector3/>
-      <Sector3B/>
-      <Sector4/>
-      <Sector5/>
+      <Sector32/>
+      <Sector3B2/>
+      <Sector42/>
+      <Sector52/>
       <Sector6/>
       <Prefooter/>
     </>

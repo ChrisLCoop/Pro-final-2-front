@@ -11,7 +11,7 @@ function Sector12() {
                 Cursos de la Academia
                 <h1>Front-End</h1>
             </strong>
-            <p>Sumérgete profundamente en el universo de la Inteligencia Artificial y domina las principales herramientas que están dando forma a la actualidad, como GPT Chat y Midjourney. Aprenda cómo empezar con la Inteligencia Artificial. Obtenga más información sobre la Escuela de Inteligencia Artificial o navegue por esta página para ver todos nuestros cursos y formaciones.</p>
+            <p>Desarrollar sitios web y aplicaciones web con HTML, CSS y JavaScript. Conozca las mejores prácticas y las últimas versiones de JavaScript. Estudie herramientas y frameworks del mercado como React, Angular, Webpack, jQuery y más. sepa cómo empezar con el front-end. Encuentra mas sobreEscuela Frontendo navega por esta página para ver todos nuestros cursos y capacitaciones.</p>
         </div>
         <div class="cursos2-1-2">
             <img src="src/assets/imgcurso/image-removebg-preview.png" alt=""/>

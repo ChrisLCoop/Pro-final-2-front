@@ -7,14 +7,14 @@ import imagen14 from '../../assets/imgcurso/DOCENTES/NAME4.jpg'
 import imagen15 from '../../assets/imgcurso/DOCENTES/NAME5.jpg'
 import imagen16 from '../../assets/imgcurso/DOCENTES/NAME6.jpg'
 
-function Sector5() {
+function Sector52() {
   return (
     <>
     <section class="cursos7">
     <div class="hcursos7">
         <div class="cursos7-1">
             <p>Líderes de Academia</p>
-            <h2>Inteligencia Artificial</h2>
+            <h2>FRONT-END</h2>
         </div> <br/><br/>
         <div class="hcursos7-1"> 
         <div class="cursos7-2">
@@ -54,4 +54,4 @@ function Sector5() {
   )
 }
 
-export default Sector5;
+export default Sector52;
