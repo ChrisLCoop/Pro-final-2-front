@@ -1195,6 +1195,10 @@ iframe{
     
 }
 
+.caja3-empresa15{
+    color: #0c0553;
+}
+
 .caja3-empresa15 h2{
     padding-top: 40px;
     font-size: 32px;
@@ -1202,12 +1206,15 @@ iframe{
     font-weight: 700;
     color: #0c0553;
     margin-bottom: 25px;
+    
 }
 
-.caja3-empresa p{
+.caja3-empresa15 p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     text-align: center;
+    
+    
 }
 
 .caja3-empresa15{
