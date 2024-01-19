@@ -1,0 +1,5 @@
+.icono-ai-sc1{
+    filter: invert(45%) sepia(26%) saturate(2040%) hue-rotate(211deg) brightness(101%) contrast(99%);
+    width: 1.5rem;
+    height: 1.5rem;
+}

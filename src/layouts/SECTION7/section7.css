@@ -1,0 +1,136 @@
+
+.cont-sec-07{
+    background-color: #061723;
+    position: relative;
+}
+
+
+
+.frame-sec07-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.button-port-sec07{
+    width: 100%;
+    /*
+    background-color: var(--background-body-header);*/
+    position: absolute;
+    top: 2.5rem;
+    left: 50%;
+    z-index: -1;
+    padding-top: 5rem;
+    max-width: 1200px;
+    transform: translate(-50%);
+}
+
+.under-section-div-07{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cards-07-abb{
+    width: 270px;
+}
+
+.cards-07-abb h2{
+    color: #2BDEFD;
+    font-family: "Chakra Petch",sans-serif;
+    font-size: 43px;
+    padding: 1rem 0;
+}
+
+.cards-07-abb img{
+    width: 63px;
+    height: 63px;
+}
+
+.cards-07-abb p{
+    font-size: 16px;
+    color: #fff;
+}
+
+.frame-sec07-all{
+    display: flex;
+}
+
+.cont-frame-07-bq1{
+    flex: 50%;
+    display: flex;
+}
+
+.cont-frame-07-bq2{
+    flex: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+
+/*----*/
+
+.lnk-07-sspd{
+    text-decoration: none;
+}
+
+.frame-btn-07sec-a{
+    position: relative;
+    width: 282px;
+    height: 70px;
+    background-color: #012640;
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 0.4s;
+
+}
+
+.frame-btn-07sec-a:hover{
+    background-color: #D7F9FF;
+    
+    
+}
+
+.frame-btn-07sec-a span{
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #fff;
+    transition: all ease 0.4s;
+}
+
+.lnk-07-sspd:hover .frame-btn-07sec-a span{
+    color: #061723;
+}
+
+.frame-btn-07sec-a img{
+    height: 55px;
+    filter: invert(1);
+    transition: all ease 0.4s;
+}
+
+.lnk-07-sspd:hover .frame-btn-07sec-a img{
+    filter: invert(0);
+}
+
+
+.frame-btn-07sec-a::after{
+    content: "";
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    margin: -15px;
+    width:30px;
+    height:30px;
+    transform:rotate(45deg);
+    background-color: #061723;
+}
+
+
+
+
+
+
+

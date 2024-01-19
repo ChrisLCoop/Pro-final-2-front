@@ -1,0 +1,5 @@
+.icono-cmd-fondo{
+    filter: invert(54%) sepia(74%) saturate(1403%) hue-rotate(111deg) brightness(93%) contrast(101%);
+    width: 1.5rem;
+    height: 1.5rem;
+}

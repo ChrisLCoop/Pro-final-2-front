@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
+
+
+
+.content-section-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+    padding-top: 8.5rem;
+    position: relative;
+}
+
+.content-info-section-1::after{
+    position: absolute;
+    top: 15%;
+    right: -7%;
+    content: "";
+    background-image: url(../../assets/noel-scuba.png);
+    width: 698px;
+    height: 698px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.cont-info-s1 {
+    color: #fff;
+    font-family: 'Chakra Petch', sans-serif;
+    padding-bottom: 2rem;
+}
+
+.cont-info-s1 h1{
+    font-size: 4rem;
+    width: 22rem;
+}
+
+.cont-info-s1 h1 span{
+    color: #2bdefd;
+}
+
+.cont-info-s1 p{
+    font-size: 1rem;
+    color: #2bdefd;
+    width: 22rem;
+    padding: 1.5rem 0;
+}
+
+
+/*---- btn---*/
+
+.btn-link-s1{
+    text-decoration: none;
+}
+
+.cont-matricula-now{
+    position: relative;
+    width: 280px;
+    height: 50px;
+    background-color: var(--color-especialverdoso);
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: all ease 0.4s;
+}
+
+.cont-matricula-now:hover{
+    background-color: #fff;
+    transform: translateY(2px);
+}
+
+.cont-matricula-now p{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.cont-matricula-now::after{
+    content: "";
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    margin: -15px;
+    width:30px;
+    height:30px;
+    transform:rotate(45deg);
+    background-color:var(--border-triangular-btn); 
+    /*
+    box-shadow: 0 0 0 250px #522d5b;*/
+}
+
+.cont-matricula-now p{
+    color: #000;
+}
+
+/*-----cards----*/
+
+.cards-s1-content-gr{
+    width: 51.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.8rem;
+
+}
+
+.link-card-s1{
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+
+.link-card-s1:hover{
+    transform: translateY(-10px);
+}
+
+.link-card-s1:hover .card-s1-t{
+    border: solid #2bdefd 2px;
+}
+
+.link-card-s1:hover .card-s1-t::after{
+    border: solid #2bdefd 2.3px;
+}
+
+.card-s1-t{
+    position: relative;
+    overflow:hidden;
+    
+    background-color: #021017;
+    
+    padding: 1rem;
+    /*
+    clip-path: polygon(
+    0 0%,
+    0% 0,
+    90% 0,
+    100% 0%,
+    100% 90%,
+    90% 100%,
+    0% 100%,
+    0% 90%,
+    0% 10%
+    )*/
+    clip-path:polygon(0 0,100% 0,100% calc(100% - 25px),calc(100% - 25px) 100%,0 100%);
+    
+    border: solid #012640 2px;
+    transition: all ease 0.3s;
+}
+
+.card-s1-t::after{
+    content: "";
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    
+    border: solid #012640 2.3px;
+    margin: -1.06rem;
+    width:1.875rem;
+    height:1.875rem;
+    transform:rotate(45deg);
+    background-color:var(--border-triangular-btn);
+    transition: all ease 0.3s;
+}
+
+.card-s1-t h5{
+    font-size: 0.6875rem;
+    padding: 0.8rem 0;
+}
+
+.card-s1-t p,h4{
+    font-size: 0.75rem;
+    padding-bottom: 1rem;
+}
+
+.card-s1-t p{
+    color: #fff;
+}
+
+.titulo-card-s1,.subtitulo-card-s1{
+    color: #00c76f;
+}
+
+.titulo-card-s2,.subtitulo-card-s2{
+    color: #69d1ff;
+}
+
+.titulo-card-s3,.subtitulo-card-s3{
+    color: #97d33b;
+}
+
+.titulo-card-s4,.subtitulo-card-s4{
+    color: #7b70fe;
+}
+
+.titulo-card-s5,.subtitulo-card-s5{
+    color: #e66165;
+}
+
+.titulo-card-s6,.subtitulo-card-s6{
+    color: #dc6ebe;
+}
+
+.titulo-card-s7,.subtitulo-card-s7{
+    color: #e8ba05;
+}
+
+.titulo-card-s8,.subtitulo-card-s8{
+    color: #ef8c2a;
+}
+
+.content-cards-s1{
+    display: flex;
+}
+
+.content-animated-arrows{
+    display: flex;
+    align-items: end;
+}

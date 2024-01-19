@@ -1,0 +1,29 @@
+.triple-flecha-animado{
+    transform: rotate(90deg);
+    width: 5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.triple-flecha{
+    filter: invert(82%) sepia(42%) saturate(4032%) hue-rotate(153deg) brightness(103%) contrast(98%);
+    width: 2.5rem;
+    animation: movimiento-flecha 2.5s infinite;
+    
+}
+
+@keyframes movimiento-flecha{
+    0%{
+        transform: translateX(0px);
+        
+    }
+    50%{
+        transform: translateX(15px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}

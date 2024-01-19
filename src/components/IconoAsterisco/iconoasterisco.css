@@ -1,0 +1,5 @@
+.icono-asterisco-fondo{
+    filter: invert(89%) sepia(25%) saturate(5861%) hue-rotate(170deg) brightness(100%) contrast(105%);
+    width: 1.5rem;
+    height: 1.5rem;
+}

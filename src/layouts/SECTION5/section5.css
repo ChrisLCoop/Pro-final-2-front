@@ -1,0 +1,171 @@
+
+.content-section-sc5{
+    background-color: #fff;
+    padding-top: 4rem;
+}
+
+.cont-int-sct5-bk{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cont-cliente-logo-sc5{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 27px;
+    
+    align-items: center;
+    justify-items: center;
+}
+
+.logo-sect-sc5-alura-e{
+    width: 230px;
+    height: 58px;
+    
+}
+
+.fr-ttl-cs5 h5{
+    font-size: 1rem;
+    font-family: "Chakra Petch",sans-serif;
+    padding: 1.7rem 0 1rem 0;
+}
+
+.fr-ttl-cs5 h2{
+    font-size: 3.75rem;
+    font-family: "Chakra Petch",sans-serif;
+    width: 40%;
+}
+
+.fr-ttl-cs5 h4{
+    font-size: 1rem;
+    color: #093366;
+    line-height: 150%;
+    font-weight: 500;
+    width: 85%;
+}
+
+.fr-ttl-cs5-2 p{
+    color: #051933;
+    font-size: 20px;
+    line-height: 1.875rem;
+    font-family: sans-serif;
+    padding-left: 2rem;
+}
+
+.p-btp-spc{
+    padding-bottom: 2rem;
+}
+
+/*---- btn---*/
+
+.btn-cs5-refer-a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+}
+
+.cont-btn-alg-c5{
+    position: relative;
+    width: 280px;
+    height: 50px;
+    background-color: var(--color-especialverdoso);
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 0.4s;
+}
+
+.cont-btn-alg-c5:hover{
+    background-color: #2bfdbe44;
+    transform: translateY(5px);
+}
+
+.cont-btn-alg-c5 p{
+    font-weight: 800;
+    font-size: 1rem;
+    
+    
+}
+
+.cont-btn-alg-c5::after{
+    content: "";
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    margin: -15px;
+    width:30px;
+    height:30px;
+    transform:rotate(45deg);
+    background-color: #fff;
+}
+
+/*----*/
+
+
+.blq-cs5-bq1{
+    display: flex;
+}
+
+.fr-ttl-cs5{
+    flex: 50%;
+}
+
+.fr-ttl-cs5-2{
+    flex: 50%;
+}
+
+.logo-sect-sc5-suzano{
+    width: 86px;
+    height: 86px;
+}
+
+.rt-blq-78{
+    display: flex;
+}
+
+.rt-blq-88{
+    display: flex;
+}
+
+
+.blq-cs5-bq2 h2{
+    font-size: 3.75rem;
+    font-family: "Chakra Petch",sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5rem 0 4rem 0;
+}
+
+.fr-ttl-cs5-2 h5{
+    font-size: 21px;
+    text-align: right;
+    padding: 1rem 0;
+}
+
+.cont-signal-base-s5{
+    padding: 1.5rem 0 3rem 0;
+}
+
+.content-frm-sc-link-bt{
+    
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0 5rem 0;
+}
+
+.link-btp-cs5-aa{
+    text-decoration: none;
+    
+    font-size: 1rem;
+    color: #051933;
+    
+}
+
+.link-btp-cs5-aa:hover{
+    text-decoration: underline;
+}

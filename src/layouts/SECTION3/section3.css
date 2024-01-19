@@ -1,0 +1,324 @@
+
+.content-section-3{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 10rem;
+}
+
+.cont-ct3bla{
+    display: flex;
+
+}
+
+.ct3-blq-1-a{
+    flex: 50%;
+    
+}
+
+.ct3-blq-1-b{
+    flex: 50%;
+}
+
+.ct3-blq1-a p{
+    font-size: 1rem;
+    color: #2bdefd;
+}
+
+.ct3-blq1-a h2{
+    font-size: 3.75rem;
+    color: #d7f9ff;
+    font-family: "Chakra Petch",sans-serif;
+    padding: 1rem 0;
+}
+
+.ct3-blq1-a h2 span{
+    color: #2bdefd;
+}
+
+.ct3-blq1-a h5{
+    font-size: 1rem;
+    color: #98d4de;
+    width: 30rem;
+}
+
+.bkg-ct3-submarine{
+    width: 411px;
+    height: 330px;
+}
+
+.content-ct3-img-submarine{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.content-ct3-img-submarine .barras-ct3{
+    position: absolute;
+    top: -40px;
+    left: 25%;
+    transform: scale(0.5);
+}
+
+.content-ct3-img-submarine .flecha-ct3{
+    position: absolute;
+    bottom: 0px;
+    right: -4.5rem;
+    
+}
+
+.content-ct3-img-submarine .simbolo-ct3{
+    position: absolute;
+    top: -8rem;
+    right: -8rem;
+    
+}
+
+.cont-divider-bloq{
+    padding: 5rem 0;
+}
+
+/*----cards grid----*/
+
+.content-ct3blb{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.card-ct3-link-cursos{
+    width: 276px;
+    height: 399px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cl-ct3-tt-crd-1 h5{
+    color: #00c76f;
+}
+
+.cl-ct3-tt-crd-2 h5{
+    color: #69d1ff;
+}
+
+.cl-ct3-tt-crd-3 h5{
+    color: #97d33b;
+}
+
+.cl-ct3-tt-crd-4 h5{
+    color: #e66165;
+}
+
+.cl-ct3-tt-crd-5 h5{
+    color: #dc6ebe;
+}
+
+.cl-ct3-tt-crd-6 h5{
+    color: #e8ba05;
+}
+
+.cl-ct3-tt-crd-7 h5{
+    color: #ef8c2a;
+}
+
+.titulo-card-lrn{
+    display: flex;
+    align-items: center;
+    padding-bottom: 1.2rem;
+}
+
+.titulo-card-lrn h5{
+    font-size: 1rem;
+    padding-left: 1.5rem;
+}
+
+.cont-img-ct3-link-card{
+    transform: scale(1.5);
+}
+
+.lnk-sc3-crd-st{
+    text-decoration: none;
+    font-size: 0.875rem;
+    color: #d7f9ff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0.33rem 0;
+    
+}
+
+.link-direct-escuela-direction{
+    padding-top: 1.2rem;
+}
+
+.lnk-sc3-crd-st-sch{
+    font-size: 1rem;
+    color: #2bdefd;
+    font-weight: bold;
+    
+}
+
+
+/*-------*/
+
+
+.cont-blq54{
+    display: flex;
+}
+
+.cont-bqq1a{
+    flex: 50%;
+    
+}
+
+.cont-bqq1b{
+    flex: 50%;
+}
+
+.cont-bqq1a h4{
+    font-size: 1rem;
+    font-family: "Chakra Petch",sans-serif;
+    color: #E81B5C;
+    font-weight: 700;
+}
+
+
+.cont-bqq1a h2{
+    font-size: 3.75rem;
+    font-family: "Chakra Petch",sans-serif;
+    color: #C5D3DD;
+}
+
+.cont-bqq1a p{
+    font-size: 1rem;
+    color: #9EADB7;
+    width: 87%;
+    padding: 0.6rem 0;
+}
+
+.cont-bqq1a p span{
+    font-weight: bold;
+    color: #9EADB7;
+}
+
+.cont-bqq1b img{
+    width: 484px;
+    height: 498px;
+}
+
+
+
+.cont-sup-brd{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 80%
+}
+
+.bs-line-abvh{
+    width: 5rem;
+    height: 2px;
+    
+}
+
+.cont-sup-brd p{
+    color: #696969;
+    padding-left: 3rem;
+}
+
+.cont-bqq1b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*---- btn---*/
+
+.btn-link-s3{
+    text-decoration: none;
+}
+
+.cont-matricula-s3c{
+    margin-top: 3rem;
+    position: relative;
+    width: 280px;
+    height: 50px;
+    background-color: var(--background-body-header);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 0.4s;
+    border: solid 1px #E81B5C;
+}
+
+.cont-matricula-s3c:hover{
+    background-color: #E81B5C;
+    transform: translateY(5px);
+}
+
+.cont-matricula-s3c p{
+    font-weight: 600;
+    font-size: 1rem;
+    
+}
+
+.cont-matricula-s3c::after{
+    content: "";
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    margin: -17px;
+    width:32px;
+    height:32px;
+    transform:rotate(45deg);
+    background-color:var(--background-body-header); 
+    border-left:1.6px solid #E81B5C;
+    
+}
+
+.cont-matricula-s3c p{
+    color: #fff;
+}
+
+/*------*/
+
+.cont-blq56{
+    padding: 3rem 0;
+}
+
+.bs-line-abvm1{
+    height: 2px;
+}
+
+.bs-line-abvm2{
+    width: 7rem;
+}
+
+.frm-inf-sign{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30rem;
+}
+
+.frm-inf-sign h5{
+    color: #696969;
+    font-size: 1rem;
+    
+}
+
+.bmn-info-inf h5{
+    color: #696969;
+    font-size: 1rem;
+}
+
+.bmn-info-inf{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+

@@ -1,0 +1,22 @@
+
+.play-button-star-all{
+    background-color: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: all ease-in-out 0.4s;
+}
+
+.play-button-star-all img{
+    width: 2.5rem;
+    height: 2.5rem;
+    filter: invert(85%) sepia(24%) saturate(6040%) hue-rotate(151deg) brightness(101%) contrast(98%);
+    
+}
+
+.play-button-star-all:hover{
+    transform: scale(1.4);
+}
