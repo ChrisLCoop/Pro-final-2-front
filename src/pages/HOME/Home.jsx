@@ -9,7 +9,7 @@ import Section7 from '../../layouts/SECTION7/Section7'
 import Section8 from '../../layouts/SECTION8/Section8'
 import Footer from '../../layouts/FOOTER/Footer'
 //import DivisorSection from '../../components/DivisorSection/DivisorSection'
-//import Section6 from '../../layouts/SECTION6/Section6'
+import Section6 from '../../layouts/SECTION6/Section6'
 
 
 
@@ -18,17 +18,25 @@ const Home = () => {
   return (
     <>
     <div className="content-home">
+       
       <Section1></Section1>
+      
       <Section2></Section2>
+      
       <Section3></Section3>
+      
       <Section4></Section4>
-      {/* 
+      {/*
       <DivisorSection></DivisorSection>*/}
+      
       <Section5></Section5>
-      {/* 
-      <Section6></Section6>*/}
+      {/*
+      <Section6></Section6>
+      */}
       <Section7></Section7>
+       
       <Section8></Section8>
+      
       <Footer></Footer>
     </div>
     </>

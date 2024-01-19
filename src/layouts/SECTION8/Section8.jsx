@@ -9,7 +9,7 @@ import IconBackgroundCardPro from '../../assets/icon-plan-pro-background.svg'
 import IconLabelLuri from '../../assets/icon-label-luri.svg'
 import IconLuri from '../../assets/icon-luri-mobile.svg'
 import IconAluraLengua from '../../assets/icon-alura-lingua.svg'
-import DividerLuri from '../../assets/formations-divider-luri.svg'
+import DividerLuri from '../../assets/formations-divider-luri.png'
 
 
 
@@ -17,7 +17,7 @@ const Section8 = () => {
   return (
     <div className='content-section-08'>
         <div className="cont-frm-tt-s8">
-            <h2>Comienza a estudiar <span>ahora</span> en la escuela de tecnología más grande del país.</h2>
+            <h2 className='titulo-s8-urgth'>Comienza a estudiar <span>ahora</span> en la escuela de tecnología más grande del país.</h2>
         </div>
         <div className="cont-self-cuenta-pv-08">
             <div className="cards-sell-cursos-s01">
@@ -134,7 +134,7 @@ const Section8 = () => {
                 <h2>Ventajas de ser <span>PRO</span></h2>
                 <p className='pr-luri-ttls'>Además de todos los beneficios del plan PLUS, recibe los beneficios EXCLUSIVOS del plan PRO y sumérgete aún más en la tecnología, el conocimiento y las posibilidades.</p>
                 <Link className='btn-08-sec-buy-sell'>
-                        <div className="cont-inf-btn-link-cursos-08">
+                        <div className="cont-inf-btn-link-cursos-08 cont-inf-btn-link-cursos-down">
                             <p>Quiero ser PRO</p>
                         </div>
                 </Link>

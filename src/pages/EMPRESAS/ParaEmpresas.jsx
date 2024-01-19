@@ -1,6 +1,8 @@
 import React from 'react'
 import './paraempresas.css'
 import { Link } from 'react-router-dom'
+import ImgMina from '../../assets/img-empresas/industria-4-0-01-b.jpg'
+import ImgPrincipalF from '../../assets/img-empresas/imagem-principal-site.webp'
 
 const ParaEmpresas = () => {
   return (
@@ -32,7 +34,7 @@ const ParaEmpresas = () => {
               <h4 class="letra2-empresa">Descubra las soluciones de <b>formación y desarrollo ofrecidas</b> por Alura Para Empresas, la mayor escuela de tecnología online de Brasil.</h4>
               <button class="botoncito-empresa"><h3>HABLAR CON ESPECIALISTAS</h3></button>
               </div>
-              <img class="img-empresa1" src="./img-empresas/imagem-principal-site.webp" alt=""/>
+              <img class="img-empresa1" src={ImgPrincipalF} alt=""/>
           </div>
 
           <div class="caja-empresa2">
@@ -458,7 +460,7 @@ const ParaEmpresas = () => {
                   <p>Manténgase al día con noticias y consejos sobre <br/><b>desarrollo, contratación y selección, cultura<br/> organizativa</b>, etc.</p>
               <div class="ctnr3-empresa17">
                   <div class="card1-empresa17">
-                      <img src="./img-empresas/industria-4-0-01 (1).jpg" alt=""/>
+                      <img src={ImgMina} alt=""/>
                       <div class="card1-letras-empresa17">
                       <div class="line1-titulo"><h4>ARTIGOS</h4></div>
                       <h3>Industria 4.0: retos y perspectivas para las empresas</h3></div>

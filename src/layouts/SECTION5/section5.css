@@ -2,10 +2,13 @@
 .content-section-sc5{
     background-color: #fff;
     padding-top: 4rem;
+    
+    margin: 0 auto;
+    width: 100%;
 }
 
 .cont-int-sct5-bk{
-    width: 100%;
+    width: 95%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -14,11 +17,12 @@
     width: 90%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 27px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
     
     align-items: center;
     justify-items: center;
+    
 }
 
 .logo-sect-sc5-alura-e{
@@ -53,6 +57,7 @@
     line-height: 1.875rem;
     font-family: sans-serif;
     padding-left: 2rem;
+
 }
 
 .p-btp-spc{
@@ -107,15 +112,20 @@
 
 
 .blq-cs5-bq1{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
 }
 
 .fr-ttl-cs5{
-    flex: 50%;
+    width: 100%;
+    
 }
 
 .fr-ttl-cs5-2{
-    flex: 50%;
+    width: 100%;
+    
 }
 
 .logo-sect-sc5-suzano{
@@ -125,6 +135,7 @@
 
 .rt-blq-78{
     display: flex;
+    width: 100%;
 }
 
 .rt-blq-88{
@@ -147,7 +158,8 @@
     padding: 1rem 0;
 }
 
-.cont-signal-base-s5{
+.cont-signal-base-s5 img{
+    width: 100%;
     padding: 1.5rem 0 3rem 0;
 }
 
@@ -168,4 +180,73 @@
 
 .link-btp-cs5-aa:hover{
     text-decoration: underline;
+}
+
+@media screen and (max-width:1370px) {
+    
+ }
+
+@media screen and (max-width:1280px) {
+    .fr-ttl-cs5 h2{
+        font-size: 40px;
+    }
+
+    
+}
+
+@media screen and (max-width:1023px) {
+    .blq-cs5-bq1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fr-ttl-cs5{
+        padding-bottom: 2rem;
+    }
+
+    .blq-cs5-bq2 h2{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:870px){
+    .cont-cliente-logo-sc5{
+        
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+        
+        
+    }
+}
+
+@media screen and (max-width:880px){
+    
+}
+
+@media screen and (max-width:767px) {
+    .cont-cliente-logo-sc5{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    
+    .rt-blq-78{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rt-blq-88{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .cont-cliente-logo-sc5{
+        
+        grid-template-columns: 1fr;
+        
+        
+        
+    }
+    
 }
