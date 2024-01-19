@@ -2,7 +2,7 @@ import React from 'react'
 import '../../pages/CURSOS/cursos.css'
 import imagen11 from '../../assets/imgcurso/ilustra-timao.1686744881.svg'
 
-function Sector4() {
+function Sector44() {
   return (
     <>
     <section class="cursos6">
@@ -11,7 +11,7 @@ function Sector4() {
         <div class="hcursos6-1">
             <h2 class="h2">
                 <p>Por donde empezar</p>
-                <strong>Inteligencia Artificial</strong>
+                <strong>PROGRAMACIÓN</strong>
             </h2> <br/> <br/>
             <h2> <strong>Sumérgete en la IA</strong></h2><br/>
             <p>Estudiarás, practicarás, discutirás y profundizarás en la Inteligencia Artificial aplicada a tu carrera, con la escuela de tecnología en línea más grande de Brasil.</p><br/><br/>
@@ -41,4 +41,4 @@ function Sector4() {
   )
 }
 
-export default Sector4
+export default Sector44

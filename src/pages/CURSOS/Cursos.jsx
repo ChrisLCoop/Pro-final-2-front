@@ -9,6 +9,7 @@ import Sector4 from '../../layouts/SECTOR/Sector4'
 import Sector5 from '../../layouts/SECTOR/Sector5'
 import Sector6 from '../../layouts/SECTOR/Sector6'
 import Prefooter from '../../layouts/SECTOR/Prefooter'
+
 function Cursos() {
 
   return (
@@ -22,6 +23,7 @@ function Cursos() {
       <Sector5/>
       <Sector6/>
       <Prefooter/>
+      
     </>
   )
 }

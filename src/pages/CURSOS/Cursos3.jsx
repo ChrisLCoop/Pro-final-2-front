@@ -1,12 +1,12 @@
 
 import './cursos.css'
 import PostHeader from '../../layouts/SECTOR/PostHeader'
-import Sector1 from '../../layouts/SECTOR/Sector1'
+import Sector13 from '../../layouts/SECTOR/Sector13'
 import Sector2 from '../../layouts/SECTOR/Sector2'
-import Sector32 from '../../layouts/SECTOR/Sector32'
-import Sector3B from '../../layouts/SECTOR/Sector3B'
-import Sector4 from '../../layouts/SECTOR/Sector4'
-import Sector5 from '../../layouts/SECTOR/Sector5'
+import Sector33 from '../../layouts/SECTOR/Sector33'
+import Sector3B3 from '../../layouts/SECTOR/Sector3B3'
+import Sector43 from '../../layouts/SECTOR/Sector43'
+import Sector53 from '../../layouts/SECTOR/Sector53'
 import Sector6 from '../../layouts/SECTOR/Sector6'
 import Prefooter from '../../layouts/SECTOR/Prefooter'
 function Cursos3() {
@@ -14,12 +14,12 @@ function Cursos3() {
   return (
     <>
       <PostHeader/>
-      <Sector1/>
+      <Sector13/>
       <Sector2/>
-      <Sector32/>
-      <Sector3B/>
-      <Sector4/>
-      <Sector5/>
+      <Sector33/>
+      <Sector3B3/>
+      <Sector43/>
+      <Sector53/>
       <Sector6/>
       <Prefooter/>
     </>

@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../pages/CURSOS/cursos.css'
 import imagen11 from '../../assets/imgcurso/inteligencia-artificial.svg'
-function Sector3B() {
+function Sector3B4() {
   return (
     <>
     <section class="cursos3">
@@ -10,7 +10,7 @@ function Sector3B() {
             <div class="hcursos5-1-1">
                 <img src={imagen11} alt=""/>
                 <div><p>Formacion en</p>
-                <strong>Inteligencia Artificial</strong>
+                <strong>Programación</strong>
                 </div>
             </div>
             <div class="hcursos5-1-2"><p>1 Formacion</p></div>
@@ -27,4 +27,4 @@ function Sector3B() {
   )
 }
 
-export default Sector3B
+export default Sector3B4
