@@ -13,7 +13,7 @@ import Cursos7 from '../pages/CURSOS/Cursos7'
 import Cursos8 from '../pages/CURSOS/Cursos8'
 import Como_funciona from '../pages/C_FUNCIONA/Como_funciona'
 import ParaEmpresas from '../pages/EMPRESAS/ParaEmpresas'
-
+import Footer from '../layouts/FOOTER/Footer'
 
 
 const Router = () => {
@@ -34,6 +34,7 @@ const Router = () => {
             <Route path='/c_funciona' element={<Como_funciona></Como_funciona>}></Route>
             <Route path='/para-empresas' element={<ParaEmpresas></ParaEmpresas>}> </Route>
         </Routes>
+        <Footer></Footer>
     </BrowserRouter>
   )
 }

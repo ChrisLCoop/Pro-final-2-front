@@ -14,6 +14,7 @@ function Cursos() {
 
   return (
     <>
+      <div className="separador9999"></div>
       <PostHeader/>
       <Sector1/>
       <Sector2/>

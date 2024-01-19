@@ -1,7 +1,7 @@
 
 .frame-princ-header-all{
     background-color: var(--background-only-header);
-    border-radius: solid red;
+    
     width: 100%;
     height: 8.5rem;
     position: fixed;

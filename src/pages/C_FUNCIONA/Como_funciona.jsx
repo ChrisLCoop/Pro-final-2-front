@@ -14,11 +14,13 @@ import Separador from "../../layouts/Separador";
 import Contenedor10 from "../../layouts/Contenedor10";
 import Contenedor11 from "../../layouts/Contenedor11";
 import Contenedor12 from "../../layouts/Contenedor12";
-import Footer from "../../layouts/FOOTER/Footer";
+
+import PostHeader from '../../layouts/SECTOR/PostHeader'
 
 const Como_funciona = () => {
     return (
-    <main class="como_funciona">     
+    <main class="como_funciona">
+        <PostHeader></PostHeader>     
         <Titulo_principal></Titulo_principal>
         <div class="contenedor_grande">
             <Contenedor1></Contenedor1>
@@ -35,7 +37,7 @@ const Como_funciona = () => {
             <Contenedor11></Contenedor11>
             <Separador></Separador>
             <Contenedor12></Contenedor12>
-            <Footer></Footer>
+            
     </main>
     )
 }

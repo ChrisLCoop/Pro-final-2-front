@@ -37,7 +37,7 @@ const Home = () => {
        
       <Section8></Section8>
       
-      <Footer></Footer>
+      
     </div>
     </>
   )

@@ -7,6 +7,12 @@
 }*/
 
 /* HEADER */
+
+.cont-para-empresas-tlf{
+    background-color: #fff;
+    z-index: 99;
+}
+
 header{
     position: fixed;
     top: 0;
@@ -20,7 +26,7 @@ header{
     background-color: #ffff;
     margin-bottom: 150px;
     z-index: 10;
-    
+    opacity: 0;
 }
 
 
@@ -80,17 +86,11 @@ header button{
     background-color: #0c0553;
 }
 
-
-
-
-
-
-
 /* CAJA 1  */
 
 
 .caja-empresa1{
-    padding-top: 80px;
+    padding-top: 100px;
     width: 100%;
     height: 100%;
     

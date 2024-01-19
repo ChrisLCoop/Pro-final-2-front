@@ -22,31 +22,31 @@ const Header = () => {
                     <img src={lupa} alt="" />
                 </div>
             </div>
-        </div>
-        <div className="comp-st-1">
-            <div className="cont-ld-iz">
-                <Link className='btn-link-a' to="/c_funciona">
-                    <div className="cont-btn-t">
-                        <p>COMO FUNCIONA</p>
-                    </div>
-                </Link>
-                <Link className='btn-link-a' to="/cursos">
-                    <div className="cont-btn-t">
-                        <p>PARA EMPRESAS</p>
-                    </div>
-                </Link>
-            </div>
-            <div className="cont-ld-rg">
-                <Link className='btn-link-a' to="">
-                    <div className="cont-btn-login">
-                        <p>INGRESAR</p>
-                    </div>
-                </Link>
-                <Link className='btn-link' to="">
-                    <div className="cont-matricula">
-                        <p>MATRICULARCE</p>
-                    </div>
-                </Link>
+            <div className="comp-st-1">
+                <div className="cont-ld-iz">
+                    <Link className='btn-link-a btn-hdr-mobile' to="/c_funciona">
+                        <div className="cont-btn-t">
+                            <p>COMO FUNCIONA</p>
+                        </div>
+                    </Link>
+                    <Link className='btn-link-a btn-hdr-mobile' to="/para-empresas">
+                        <div className="cont-btn-t">
+                            <p>PARA EMPRESAS</p>
+                        </div>
+                    </Link>
+                </div>
+                <div className="cont-ld-rg">
+                    <Link className='btn-link-a btn-hdr-mobile' to="">
+                        <div className="cont-btn-login">
+                            <p>INGRESAR</p>
+                        </div>
+                    </Link>
+                    <Link className='btn-link' to="">
+                        <div className="cont-matricula">
+                            <p>MATRICULARCE</p>
+                        </div>
+                    </Link>
+                </div>
             </div>
         </div>
     </div>

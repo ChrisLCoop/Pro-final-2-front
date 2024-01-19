@@ -12,7 +12,8 @@ import Prefooter from '../../layouts/SECTOR/Prefooter'
 function Cursos6() {
 
   return (
-    <>
+    <> 
+      <div className="separador9999"></div>
       <PostHeader/>
       <Sector16/>
       <Sector2/>
