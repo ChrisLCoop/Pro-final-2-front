@@ -4,7 +4,7 @@
   /*----header---*/
   --color-especialverdoso:#2bfdbe;
   --background-body-header:#01080e;
-  --background-only-header:#01080e87;
+  --background-only-header:rgba(1,8,14,.9);;
   --border-triangular-btn:#01080e;
 }
 

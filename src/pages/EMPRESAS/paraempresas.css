@@ -1,0 +1,1714 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+/*
+*{
+    margin: 0;
+    padding: 0;
+    
+}*/
+
+/* HEADER */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    height: 2rem;
+    padding: 30px 20px;
+    background-color: #ffff;
+    margin-bottom: 150px;
+    z-index: 10;
+    
+}
+
+
+.logo1-cabezal img{
+    position: relative;
+    bottom: 10px;
+}
+
+
+.menu1-cabezal nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header ul{
+    position: relative;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.menu1-cabezal nav ul li{
+    list-style:  none;
+
+}
+.menu1-cabezal nav ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    margin: 0px 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #17151d;
+}
+
+header button{
+    margin: 0px 15px;
+    padding: 10px 14px;
+    border-radius: 20px;
+    background-color: #216ff4;
+    border: none;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.menu1-cabezal button a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu1-cabezal button:hover{
+    background-color: #0c0553;
+}
+
+
+
+
+
+
+
+/* CAJA 1  */
+
+
+.caja-empresa1{
+    padding-top: 80px;
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.img-empresa1{
+    width: 50%;
+    height: 50%;
+
+
+}
+
+.caja-empresa-letras{
+    width: 38%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    margin-bottom: 120px;
+    margin-left: 65px;
+   
+    
+}
+
+.letra1-empresa{
+    font-size: 33px;
+    font-family: 'Montserrat', sans-serif;
+    color: #0c0553;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
+
+.letra2-empresa{
+    font-size: 19.2px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 28px;
+    margin-bottom: 40px;
+    color: #142f6d;
+}
+
+.botoncito-empresa h3{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.botoncito-empresa{
+    width: 53%;
+    height: 30%;
+    padding: 16px 0px 16px;
+    background-color: #216ff4;
+    border-radius: 30px;
+    border: none
+    
+}
+
+.botoncito-empresa:hover{
+    background-color: #0c0553;
+}
+
+b{
+    color: #0c0553;
+}
+
+
+/*  CAJA2 */
+
+.caja-empresa2{
+    width: 100%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.caja-empresa2 p{
+   
+    font-size: 25px;
+    color: #0c0553;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* CAJA3 */
+
+.container-empresa3{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    
+    margin-bottom: 40px;
+    
+}
+
+.caja1-empresa3{
+    width: 276px;
+    height: 310px;
+    margin-top: 94px;
+    margin-left: 54px;
+}
+
+.caja1-empresa3 b{
+    color: #352bdd;
+}
+
+.fondo-empresa3{
+    width: 365px;
+    height: 485px;
+    background-color: #f4f9ff;
+    border-radius: 20px;
+    
+}
+
+.titulo1-empresa3{
+    font-size: 22px;
+    margin-bottom: 35px;
+    font-family: 'Montserrat', sans-serif;
+    color: #0e0437;
+    
+}
+
+.contenido1-empresa3{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #0e0437;
+    line-height: 24px;
+     
+}
+
+
+.caja2-empresa3{
+    width: 280px;
+    height: 310px;
+    margin-top: 94px;
+    margin-left: 44px;
+}
+
+.caja2-empresa3 b{
+    color: #352bdd;
+}
+
+.fondo2-empresa3{
+    width: 365px;
+    height: 485px;
+    background-color: #f4f9ff;
+    border-radius: 20px;
+    
+}
+
+.titulo2-empresa3{
+    font-size: 22px;
+    margin-bottom: 35px;
+    font-family: 'Montserrat', sans-serif;
+    color: #0e0437;
+    
+}
+
+.contenido2-empresa3{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #0e0437;
+    line-height: 120px;
+     
+}
+
+.caja3-empresa3{
+    width: 280px;
+    height: 310px;
+    
+    margin-top: 94px;
+    margin-left: 44px;
+}
+
+.caja3-empresa3 b{
+    color: #352bdd;
+}
+
+.fondo3-empresa3{
+    width: 365px;
+    height: 485px;
+    background-color: #f4f9ff;
+    border-radius: 20px;
+    
+}
+
+.titulo3-empresa3{
+    font-size: 21px;
+    margin-bottom: 35px;
+    font-family: 'Montserrat', sans-serif;
+    color: #0e0437;
+    
+    
+}
+
+.contenido3-empresa3{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #0e0437;
+    line-height: 10px;
+    
+     
+}
+
+.fondo-empresa3:hover{
+    border: solid #216FF4;
+}
+
+.fondo2-empresa3:hover{
+    border: solid #216FF4;
+}
+
+.fondo3-empresa3:hover{
+    border: solid #216FF4;
+}
+
+
+/* caja 4 - BOTON QUIERO CONOCER */
+
+.btn-conocer{
+    margin: 20px 16px 18px 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contenedor-boton-conocer{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.btn-conocer{
+    margin: 0 auto;
+    padding: 25px 80px;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    background-color: #2a7ae4;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 140px;
+}
+
+.btn-conocer:hover{
+    background-color: #0c0553;
+
+}
+
+/* CAJA 5 */
+
+.caja-empresa5{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.img-empresa5{
+    width: 40%;
+    height: 40%;
+
+}
+
+.caja-empresa5-letras{
+    width: 33%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    margin-bottom: 120px;
+    margin-left: 65px;
+   
+}
+
+.letra1-empresa5{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: #0c0553;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
+
+.letra2-empresa5{
+    font-size: 19.2px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 28px;
+    margin-bottom: 40px;
+    color: #142f6d;
+}
+
+/* CAJA 6 */
+
+.container-empresa6{
+    width: 100%;
+    height: 100%;
+    
+    margin-bottom: 100px;
+     
+}
+
+.box-empresa6{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+.fondo-empresa6{
+    width: 83%;
+    height: 500px;
+    background-color: #f4f9ff;
+    margin: 0 auto;
+    
+} 
+
+.caja1-empresa6{
+    width: 352px;
+    height: 430px;
+    padding-left: 32px;
+    
+}
+
+.caja2-empresa6{
+    width: 352px;
+    height: 500px;
+    border-left: dashed black 1px;
+    padding-left: 35px;
+    
+    
+}
+
+.caja3-empresa6{
+    width: 352px;
+    height: 500px;
+    border-left: dashed black 1px;
+    padding-left: 35px;
+}
+
+.img-empresa6{
+    position: relative;
+    right: 34px;
+    margin-bottom: 10px;
+}
+
+.img2-empresa6{
+    position: relative;
+    right: 35px;
+    margin-bottom: 10px;
+    
+}
+
+.titulo6{
+    font-size: 21px;
+    color: #0c0553;
+    margin-bottom: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.contenido6{
+    width: 85%;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #36335c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 29px;
+    
+    
+}
+
+.contenido6 b{
+    color: #6381bc;
+}
+
+/* CAJA 7 */
+
+.caja-empresa7{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.titulo7-empresa7{
+    font-size: 28px;
+    color: #0c0553;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.contenido7-empresa7{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.contenido7-empresa7 b{
+    color: #36335c;
+}
+
+/* CAJA 8 */
+
+.container-empresa8{
+    width: 100%;
+    height: 100%;
+}
+
+.fondo-empresa8{
+    background-color: #f4f9ff;
+}
+
+.caja-empresa8{
+    text-align: center;
+    padding-top: 75px;
+    margin-bottom: 85px;
+}
+
+.caja-empresa8 h3{
+    font-size: 27px;
+    color: #0c0553;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+.caja-empresa8 p{
+    
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #636098;
+    
+}
+
+.caja-empresa8 b{
+    color: #36335c;
+}
+
+
+
+
+.img1-empresa8{
+    width: 40%;
+    height: 40%;
+}
+
+.caja2-empresa8{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+.letra1-empresa8{
+    padding-top: 67px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    border-top: dashed black 1px;
+    
+}
+
+.letra1-empresa8 h3{
+    font-size: 28px;
+    color: #0c0553;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.parrafo1-empresa8{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #636098;
+    line-height: 27px;
+}
+
+.letra1-empresa8 b{
+    color: #635f8b;
+}
+
+
+
+.caja3-empresa8{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+    
+}
+
+.img3-empresa8{
+    width: 40%;
+    height: 40%;
+    padding-right: 55px;
+    
+    
+}
+
+.letra3-empresa8{
+    padding-top: 80px;
+    width: 35%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    border-top: dashed black 1px;
+    
+}
+
+.letra3-empresa8 h3{
+    
+    font-size: 29px;
+    color: #0c0553;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    
+}
+
+.parrafo3-empresa8{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #636098;
+    line-height: 27px;
+}
+
+.letra3-empresa8 b{
+    color: #635f8b;
+}
+
+
+
+
+
+.img4-empresa8{
+    width: 40%;
+    height: 40%;
+    
+}
+
+.caja4-empresa8{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+.letra4-empresa8{
+    padding-top: 67px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    border-top: dashed black 1px;
+    padding-right: 35px;
+    
+}
+
+.letra4-empresa8 h3{
+    font-size: 28px;
+    color: #0c0553;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.parrafo4-empresa8{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #636098;
+    line-height: 27px;
+}
+
+.letra4-empresa8 b{
+    color: #635f8b;
+}
+
+
+
+
+.caja5-empresa8{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+    
+}
+
+.img5-empresa8{
+    width: 40%;
+    height: 40%;
+    padding-right: 55px;
+    
+    
+}
+
+.letra5-empresa8{
+    padding-top: 80px;
+    width: 35%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    border-top: dashed black 1px;
+    
+}
+
+.letra5-empresa8 h3{
+    
+    font-size: 29px;
+    color: #0c0553;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    
+}
+
+.parrafo5-empresa8{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #636098;
+    line-height: 27px;
+}
+
+.letra5-empresa8 b{
+    color: #635f8b;
+}
+
+
+.btn8-empresa8{
+    margin: 20px 16px 18px 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ctnr8-empresa8{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 15px;
+    
+}
+
+.btn8-empresa8{
+    margin: 0 auto;
+    padding: 16px 60px;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    background-color: #2a7ae4;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 110px;
+}
+
+.btn8-empresa8:hover{
+    background-color: #0c0553;
+
+}
+
+/* CAJA 9 */
+
+.caja-empresa9{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.img-empresa9{
+    width: 40%;
+    height: 40%;
+
+}
+
+.caja-empresa9-letras{
+    width: 33%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    margin-bottom: 120px;
+    margin-left: 65px;
+    padding-top: 80px;
+   
+}
+
+.letra1-empresa9{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: #0c0553;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
+
+.letra2-empresa9{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 28px;
+    margin-bottom: 40px;
+    color: #142f6d;
+}
+
+/* CAJA 10 */
+
+.ctnr10-empresa10{
+    width: 100%;
+    height: 100%;
+    
+    margin-bottom: 100px;
+     
+}
+
+.box-empresa10{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+
+.caja1-empresa10{
+    padding-top: 55px;
+    width: 352px;
+    height: 480px;
+    padding-left: 120px;
+    
+}
+
+.caja2-empresa10{
+    padding-top: 55px;
+    width: 352px;
+    height: 480px;
+    border-left: dashed black 1px;
+    padding-left: 45px;
+    
+    
+}
+
+.caja3-empresa10{
+    padding-top: 55px;
+    width: 390px;
+    height: 480px;
+    border-left: dashed black 1px;
+    padding-left: 45px;
+}
+
+.img-empresa10{
+    
+    margin-bottom: 30px;
+}
+
+.img2-empresa10{
+    margin-bottom: 30px;
+    
+}
+
+
+.contenido10{
+    width: 85%;
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #737293;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 29px;
+    
+    
+}
+
+.contenido10 b{
+    color: #635f8b;
+}
+
+.contenido2-10{
+    font-size: 18px;
+    color: #217cf6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 1px;
+    
+}
+
+.contenido2-10 a{
+    text-decoration: none;
+    color: #217cf6;
+}
+
+/* CAJA 11 */
+
+.ctnr-empresa11{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.caja1-empresa11{
+    width: 85%;
+    background-color: #130464;
+    border-radius: 10px;
+    padding-bottom: 80px;
+}
+
+.ctnr-box-all{
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+
+.box2-empresa11{
+    width: 250px;
+    height: 250px;
+    border: solid greenyellow;
+    background-color: #216ff4;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 15px 15px;
+    
+    
+}
+
+.titulo-caja1-empresa11{
+    padding-top: 55px;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+ 
+.texto1-empresa11{
+    padding: 30px;
+    font-size: 34px;
+    color: #0c0553;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    
+    
+}
+
+.texto2-empresa11{
+    padding: 21px;
+    width: 210px;
+    border-top: dashed white 1px;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    
+}
+
+/* CAJA 12 */
+
+.ctnr-empresa12{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.letras1-empresa12{
+    text-align: center;
+}
+
+.letras1-empresa12 h2{
+    color: #0c0553;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.letras1-empresa12 p{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.letras1-empresa12 p b{
+    color: #736f97;
+}
+
+
+/* CAJA 13 */
+
+.ctnr-empresa13{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 80px;
+
+}
+
+.img1-empresa13{
+    width: 65%;
+    height: 30%;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-bottom: dashed black 1px;
+    
+}
+
+.img2-empresa13{
+    width: 70%;
+    height: 30%;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-bottom: dashed black 1px;
+    
+}
+
+.img3-empresa13{
+    width: 68%;
+    height: 30%;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-bottom: dashed black 1px;
+    
+}
+.img4-empresa13{
+    width: 65%;
+    height: 30%;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-bottom: dashed black 1px;
+    
+}
+
+.caja1-empresa13{
+    width: 280px;
+    height: 450px;
+    border: solid 2px whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja1-empresa13 h3{
+    color: #0c0553;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.caja1-empresa13 h4{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.caja-letra-empresa13{
+    width: 180px;
+}
+
+.caja1-empresa13 h4 b{
+    color: #736f97;
+}
+
+
+.caja1-empresa13:hover{
+    box-shadow: 10px 10px 46px 0px rgba(209,207,209,1);
+}
+
+/* CAJA 14 */
+
+.ctnr-empresa14{
+    width: 100%;
+    height: 100%;
+    background-color: #f2f9fc;
+}
+
+
+
+.ctnr-empresa14 h3{
+    padding-left: 130px;
+    padding-top: 40px;
+    color: #0c0553;
+    font-size: 29px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.caja1-empresa14{
+    width: 85%;
+    height: 85%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 130px;
+    
+}
+.caja2-empresa14{
+    padding-top: 10px;
+   display: flex;
+   justify-content: center;
+   gap: 130px;
+}
+
+.parrafo1-empresa14{
+    font-size: 17px;
+    padding-top: 80px;
+    width: 460px;
+    color: #464377;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+iframe{
+    padding: 12px 12px 12px 12px;
+    border: solid 2px whitesmoke;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 80px;
+}
+
+/* CAJA 15 */
+
+.ctnr-empresa15{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: dashed rgb(19, 129, 255) 1px;
+}
+
+.caja1-empresa15{
+    padding-top: 50px;
+    margin-bottom: 120px;
+    
+    
+}
+.caja1-empresa15 h3{
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #0c0553;
+    margin-bottom: 25px;
+}
+
+.caja1-empresa15 p{
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.caja1-empresa15 b{
+    color: #736f97;
+}
+
+.caja2-empresa15{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+    
+}
+
+.caja3-empresa15 h2{
+    padding-top: 40px;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #0c0553;
+    margin-bottom: 25px;
+}
+
+.caja3-empresa p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.caja3-empresa15{
+    width: 410px;
+    height: 690px;
+    border: solid rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+    
+}
+
+.caja4-empresa15{
+    width: 300px;
+    height: 350px;
+    
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 25px;
+    position: relative;
+    bottom: 40px;
+    border-top: dashed rgb(19, 129, 255) 1px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.btn-empresa15{
+    padding: 10px 20px;
+    background-color: rgb(51, 105, 255);
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.btn-empresa15:hover{
+    background-color: #0c0553;
+}
+
+.btn2-empresa15{
+    padding: 10px 50px;
+    background-color: rgb(51, 105, 255);
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.btn2-empresa15:hover{
+    background-color: #0c0553;
+}
+
+
+/* CAJA 16 */
+
+.ctnr-empresa16{
+    padding-top: 85px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+.caja1-empresa16{
+    padding: 85px;
+    width: 73%;
+    height: 650px;
+    margin: 0 auto;
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    background-color: #0c0553;
+    border-radius: 10px;
+}
+.titulo1-empresa16{
+    font-size: 24px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.iconos1-empresa16{
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.iconos2-empresa16{
+    color: white;
+    margin-bottom: 180px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    
+}
+
+.iconos1-empresa16 img{
+    width: 40px;
+    position: relative;
+    top: 12px;
+    
+}
+
+.iconos2-empresa16 img{
+    width: 40px;
+    position: relative;
+    top: 12px;
+}
+.iconos3-empresa16 img{
+    width: 50px;
+    
+    
+    
+}
+
+.lista1-empresa16{
+    padding: 40px;
+    padding-left: 60px;
+    width: 450px;
+    height: 640px;
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.lista2-empresa16{
+    padding-left: 60px;
+    width: 450px;
+    height: 700px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inp1-empresa16 input{
+    padding: 15px 170px 10px 8px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+
+.inp2-empresa16 input{
+    width: 337px;
+    height: 150px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    
+}
+
+.slt1-empresa16 select{
+    padding: 15px 149px 10px 8px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    
+}
+
+.slt2-empresa16 select{
+    padding: 15px 123px 10px 8px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    
+}
+
+.check-empresa16{
+    margin-bottom: 30px;
+}
+.check-empresa16 label{
+    font-size: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    
+}
+
+.check-empresa16 label b a{
+    color: #216ff4;
+}
+
+.btn1-empresa16{
+    font-size: 16px;
+    padding: 15px 102px;
+    background-color: #216ff4;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.btn1-empresa16:hover{
+    background-color: #2d1dd8;
+}
+
+/* CAJA 17 */
+
+.ctnr-empresa17{
+    width: 100%;
+    height: 940px;
+    background-color: #f4f8ff;
+    
+}
+
+.card1-empresa17 img{
+    width: 100%;
+    height: 39%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    
+}
+
+.ctnr2-empresa17{
+    padding-top: 90px;
+    
+}
+
+.ctnr3-empresa17{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ctnr2-empresa17 h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #0c0553;
+    margin-bottom: 30px;
+}
+
+.ctnr2-empresa17 p{
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #646591;
+    margin-bottom: 30px;
+}
+
+.ctnr2-empresa17 b{
+    color: #635f8b;
+}
+.card1-empresa17 {
+    width: 310px;
+    height: 460px;
+    
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
+.card1-letras-empresa17{
+    width: 230px;
+    height: 150px;
+    
+    padding-left: 45px;
+    margin-bottom: 53px;
+}
+
+.card1-letras-empresa17 h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #646591;
+    margin-bottom: 20px;
+}
+
+.line1-titulo h4{
+    
+    width: 80px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #646591;
+}
+
+.card1-letras-empresa17 h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #0c0553;
+    margin-bottom: 90px;
+}
+
+.card1-empresa17 a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #216ff4;
+    position: relative;
+    left: 47px;
+}
+
+.card1-empresa17 a:hover{
+    color: #0c0553;
+}
+
+.btn-empresa17{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    padding: 15px 75px;
+    display: flex;
+    border: none;
+    margin: 0 auto;
+    background-color: #0c0553;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+
+.btn-empresa17:hover{
+    background-color: #216ff4;
+}
+
+/* CAJA 18 */
+
+.ctnr-empresa18{
+    width: 100%;
+    height: 100%;  
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding-top: 60px;
+    margin-bottom: 100px;
+}
+
+.ctnr-empresa18 img{
+    width: 25%;
+}
+.letras-empresa18 p{
+    padding-top: 150px;
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #0c0553;
+    margin-bottom: 110px; 
+}
+
+.btn-empresa18{
+    font-size: 16px;
+    padding: 15px 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border: none;
+    background-color: #216ff4;
+    color: white;
+    border-radius: 25px;
+}
+
+.btn-empresa18:hover{
+    background-color: #0c0553;
+    
+}
+
+/* CAJA 19 - FOOTER */
+
+.ctnr-empresa19{
+    width: 100%;
+    height: 880px;
+    background-color: #0c0553;
+}
+
+.ctnr1-empresa19{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1.8px dashed white;
+    
+}
+.img1-empresa19{
+    width: 35%;
+    margin-bottom: 50px;
+}
+
+.fila1-empresa19 p{
+    font-size: 15px;
+    margin-bottom: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 22px;
+
+}
+.img2-empresa19{
+    width: 11%;
+    
+}
+
+.fila1-empresa19{
+    padding-left: 45px;
+    padding-top: 55px;
+    color: white;
+    width: 430px;
+    height: 350px;
+    
+}
+
+.fila2-empresa19{
+    padding-top: 65px;
+    font-size: 16px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    width: 600px;
+    height: 350px;
+    
+    position: relative;
+    right: 25px
+}
+
+.fila2-empresa19 img{
+    width: 30%;
+    
+}
+
+.fila2-empresa19 h4{
+    margin-bottom: 20px;
+}
+
+.fila2-empresa19 span input{
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 15px 125px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    margin-bottom: 55px;
+    
+}
+
+.btn-empresa19{
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 15.2px 22px;
+    border-radius: 3px;
+    color: white;
+    background-color: #216ff4;
+    border: none;
+    position: relative;
+    right: 5px;
+    bottom: 0.2px;
+    
+}
+
+/* FOOTER  */
+
+.footer-empresa19{
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    display: flex;
+    gap: 20px;
+    
+} 
+
+.l1-footer{
+    width: 170px;
+    height: 250px;
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 120px;
+    
+}
+
+
+.l1-footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.titulo1-empresa19 a{
+    text-decoration: none;
+    color: #216ff4;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 768px){
+
+    
+
+}

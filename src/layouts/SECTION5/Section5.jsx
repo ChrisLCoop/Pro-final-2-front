@@ -1,7 +1,7 @@
 import React from 'react'
 import './section5.css'
 import { Link } from 'react-router-dom'
-import LineaDivisoraAlum from '../../assets/divisor-destaque-alumnos.svg'
+import LineaDivisoraAlum from '../../assets/divisor-destaque-alumnos.png'
 import AluraLogoEmpresa from '../../assets/alura-para-empresas.svg'
 import LogoSuzano from '../../assets/suzano.png'
 import BancoPan from '../../assets/banco-pan.png'

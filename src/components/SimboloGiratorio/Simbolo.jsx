@@ -1,7 +1,7 @@
 import React from 'react'
 import './simbolo.css'
 import simboloA from '../../assets/simbolo-a.png'
-import aureolaA from '../../assets/selo-circle.svg'
+import aureolaA from '../../assets/selo-circle.png'
 
 const Simbolo = () => {
   return (

@@ -54,10 +54,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 }
 
 .fondo-logo-mov{
     animation: movimiento-logo 4.5s infinite;
+    
 }
 
 @keyframes movimiento-logo{
@@ -241,4 +243,129 @@
 
 .btn-mr-tst-end-sct4 p{
     color: #000;
+}
+
+
+@media screen and (max-width:1280px) {
+    .content-sct-4{
+        width: 95%;
+        
+    }
+}
+
+@media screen and (max-width:1202px) {
+    .card-sct4-dtl{
+        width: 310px;
+        height: 482px;
+        
+    }
+
+    .cont-bkg-card-qw{
+        width: 15.625rem;
+    }
+    
+    .cont-bkg-card-qw::after{
+        
+        width: 15.625rem;
+    }
+    
+    
+}
+
+@media screen and (max-width:1023px) {
+
+    .sct-aad-s1 h2{
+        font-size: 30px;
+
+    }
+    .sect-a-sct4-ss6{
+        
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    .cont-bkg-sct4-la{
+        transform: scale(0.8);
+    }
+
+    .sect-a-sct4-crt{
+        
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:900px){
+    
+}
+
+@media screen and (max-width:880px){
+    
+}
+
+@media screen and (max-width:767px) {
+    .cont-bkg-sct4-la{
+        display: none;
+    }
+
+    .sect-a-sct4-crt{
+        
+        padding-bottom: 3rem;
+    }
+
+    .sect-a-sct4-ss6{
+        
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .card-sct4-dtl{
+        width: 100%;
+        height: 40rem;
+    }
+
+    .cont-bkg-card-qw{
+        position: relative;
+        width: 100%;
+        height: 21rem;
+        background-image: url(../../assets/fondo-card-0.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .cont-bkg-card-qw::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 21rem;
+        top: 0;
+        left: 0;
+        background-color: #0615285c;
+    }
+
+    /*-----*/
+    .frame-link-mr-tst-sct4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem 0;
+    }
+    
+    .btn-mr-tst-end-sct4{   
+        width: 100%;
+        
+    }
+    
+    
+    
+    .btn-mr-tst-end-sct4 p{
+        font-size: 0.9rem;
+        padding: 1rem;
+    }
+    
 }

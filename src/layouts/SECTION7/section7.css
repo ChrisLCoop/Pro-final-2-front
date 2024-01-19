@@ -2,6 +2,7 @@
 .cont-sec-07{
     background-color: #061723;
     position: relative;
+    margin-bottom: 6rem;
 }
 
 
@@ -12,24 +13,31 @@
     margin: 0 auto;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    
 }
 
 .button-port-sec07{
     width: 100%;
+    margin: 0 auto;
     /*
     background-color: var(--background-body-header);*/
     position: absolute;
-    top: 2.5rem;
+    top: 12rem;
     left: 50%;
-    z-index: -1;
+    z-index: 10;
     padding-top: 5rem;
     max-width: 1200px;
     transform: translate(-50%);
+    
+    display: flex;
+    z-index: -1;
 }
 
 .under-section-div-07{
     width: 100%;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .cards-07-abb{
@@ -60,6 +68,7 @@
 .cont-frame-07-bq1{
     flex: 50%;
     display: flex;
+    
 }
 
 .cont-frame-07-bq2{
@@ -67,6 +76,7 @@
     display: flex;
     align-items: end;
     justify-content: space-around;
+    
 }
 
 /*----*/
@@ -128,7 +138,90 @@
     background-color: #061723;
 }
 
+@media screen and (max-width:1370px) {
+    .frame-sec07-all{
+        width: 95%;
+    }
+}
 
+@media screen and (max-width:1280px) {
+    .frame-sec07-all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .cont-frame-07-bq1{
+        padding-bottom: 2rem;
+    }
+
+    .cards-07-abb{
+        margin: 0 1rem;
+    }
+
+    .cont-07-btn-scc{
+        margin: 0 1rem;
+    }
+
+    .button-port-sec07{
+        top: 19rem;
+        
+    }
+
+    
+}
+
+@media screen and (max-width:1023px) {
+    .button-port-sec07{
+        top: 23rem;
+    }
+}
+
+@media screen and (max-width:870px){
+   
+}
+
+@media screen and (max-width:880px){
+   
+}
+
+@media screen and (max-width:767px) {
+   .cont-frame-07-bq1{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+   }
+
+   .cont-frame-07-bq2{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .cards-07-abb{
+    width: 100%;
+   }
+
+   .cont-07-btn-scc{
+    padding-bottom: 2rem;
+   }
+
+   .button-port-sec07{
+    top: 42rem;
+   }
+}
+
+@media screen and (max-width:500px) {
+    .button-port-sec07{
+        top: 44rem;
+       }
+   
+}
+
+@media screen and (max-width:400px) {
+   
+   
+}
 
 
 

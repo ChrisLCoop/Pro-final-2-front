@@ -30,7 +30,7 @@ const Section3 = () => {
             </div>
             <div className="ct3-blq-1-b">
                 <div className="content-ct3-img-submarine">
-                    <img className='bkg-ct3-submarine' src={submarinoImg} alt="" />
+                    
                     <div className="barras-ct3">
                         <Stripes></Stripes>
                     </div>

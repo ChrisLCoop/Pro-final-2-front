@@ -5,7 +5,7 @@ import MacbookLogo from '../../assets/Macbook_icon.png'
 import AppLogoS from '../../assets/apple_festival_app.png'
 import LogoPlayStore from '../../assets/application_playstore_android.png'
 import LogoApple from '../../assets/social_apple_mac.png'
-import DivisorImg from '../../assets/divisor-section-app.svg'
+import DivisorImg from '../../assets/divisor-section-app.png'
 
 
 
