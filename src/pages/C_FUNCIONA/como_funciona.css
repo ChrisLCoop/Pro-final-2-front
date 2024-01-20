@@ -1,10 +1,10 @@
 @font-face {
     font-family: chakra-grueso;
-    src: url('src/assets/letras_brandon/ChakraPetch-Bold.ttf') format('truetype');
+    src: url('../../assets/letras_brandon/ChakraPetch-Bold.ttfz') format('truetype');
 }
 @font-face {
     font-family: chakra-normal;
-    src: url('src/assets/letras_brandon/ChakraPetch-Regular.ttf') format('truetype');
+    src: url('../../assets/letras_brandon/ChakraPetch-Regular.ttf') format('truetype');
 }
 
 *{
@@ -506,7 +506,7 @@ strong{
 
 /* SEPARADOR */
 .separador{
-    background-image: url(src/assets/svg_brandon/LINEA-SEPARADORA.svg);
+    background-image: url(../../assets/svg_brandon/LINEA-SEPARADORA.svg);
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
@@ -737,7 +737,7 @@ strong{
     max-width: 400px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(src/assets/img_brandon/icono-imagen.png);
+    background-image: url(../../assets/img_brandon/icono-imagen.png);
     top: -100px;
     position: absolute;
     right: -160px;
@@ -752,7 +752,7 @@ strong{
     width: 100%;
     max-width: 140px;
     background-repeat: no-repeat;
-    background-image: url(src/assets/img_brandon/texto-img.svg);
+    background-image: url(../../assets/img_brandon/texto-img.svg);
     background-size: 100%;
     animation: loading 50s linear infinite;
     right: -18px;
