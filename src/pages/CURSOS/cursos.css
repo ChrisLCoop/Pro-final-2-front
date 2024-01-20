@@ -1,3 +1,5 @@
+
+
 *{
     padding: 0;
     margin: 0;
@@ -58,7 +60,7 @@
   .cursos2{
     display:flex;
     justify-content: space-between;
-    background-image: url(/src/assets/imgcurso/luz-topo.1686744882.png);
+    background-image: url(https://drive.google.com/file/d/1eQ7QQavycQqSR0Fs6TnU7XI7-WVBVehQ/view?usp=drive_link);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
