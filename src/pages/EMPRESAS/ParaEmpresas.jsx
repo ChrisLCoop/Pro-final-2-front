@@ -425,7 +425,6 @@ const ParaEmpresas = () => {
                       </div> 
                   </div>
               </div>
-          
           <form action="">
           <div class="ctnr-empresa16">
               <div class="caja1-empresa16">
