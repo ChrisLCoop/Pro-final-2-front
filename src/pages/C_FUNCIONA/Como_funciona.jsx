@@ -33,6 +33,7 @@ const Como_funciona = () => {
             <Contenedor7></Contenedor7>
             <Contenedor8></Contenedor8>
             <Contenedor9></Contenedor9>
+            <Separador></Separador>
             <Contenedor10></Contenedor10>
             <Contenedor11></Contenedor11>
             <Separador></Separador>
