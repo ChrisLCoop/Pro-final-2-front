@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './header.css'
-import { Link } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 import lupa from '../../assets/search-icon.png'
 import logo from '../../assets/alura-logo.svg'
 import IconHamburgerOpen from '../../assets/icon-menu-open.svg'
@@ -20,6 +20,7 @@ const Header = () => {
     }
 
   return (
+    <>
     <div className="frame-princ-header-all">
         <div className="content-header">
             <div className="comp-st">
@@ -36,7 +37,7 @@ const Header = () => {
                             <img src={lupa} alt="" />
                         </div>
                         <div className="cont-ld-rg position-om">
-                            <Link className='btn-link-a' to="">
+                            <Link className='btn-link-a' to="/login">
                                 <div className="cont-btn-login">
                                     <p>INGRESAR</p>
                                 </div>
@@ -78,12 +79,12 @@ const Header = () => {
                     </Link>
                 </div>
                 <div className="cont-ld-rg">
-                    <Link className='btn-link-a btn-hdr-mobile' to="">
+                    <Link className='btn-link-a btn-hdr-mobile' to="/login">
                         <div className="cont-btn-login">
                             <p>INGRESAR</p>
                         </div>
                     </Link>
-                    <Link className='btn-link' to="">
+                    <Link className='btn-link' to="/matricula">
                         <div className="cont-matricula">
                             <p>MATRICULARCE</p>
                         </div>
@@ -93,6 +94,7 @@ const Header = () => {
             
         </div>
     </div>
+    </>
   )
 }
 

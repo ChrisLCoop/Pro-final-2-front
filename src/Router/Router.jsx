@@ -14,6 +14,9 @@ import Cursos8 from '../pages/CURSOS/Cursos8'
 import Como_funciona from '../pages/C_FUNCIONA/Como_funciona'
 import ParaEmpresas from '../pages/EMPRESAS/ParaEmpresas'
 import Footer from '../layouts/FOOTER/Footer'
+import Dashboard from '../pages/HOME/Dashboard'
+import Matricula from '../pages/INGRESO_REGISTRO/Matricula'
+
 
 
 
@@ -36,6 +39,10 @@ const Router = () => {
             <Route path='/cursos8' element={<Cursos8></Cursos8>}> </Route>
             <Route path='/c_funciona' element={<Como_funciona></Como_funciona>}></Route>
             <Route path='/para-empresas' element={<ParaEmpresas></ParaEmpresas>}> </Route>
+
+            <Route path='/login' element={<Dashboard></Dashboard>}> </Route>
+            <Route path='/matricula' element={<Matricula></Matricula>}> </Route>
+            
             
         </Routes>
         <Footer></Footer>

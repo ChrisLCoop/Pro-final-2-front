@@ -3,14 +3,13 @@ import './footer.css'
 import { Link } from 'react-router-dom'
 import AluraLogoFooter from '../../assets/alura-logo-footer.svg'
 import LogoTiktok from '../../assets/tiktok_logo_icon.png'
-import LogoYoutube from '../../assets/youtube_icon_social.png'
+import LogoWhatsapp from '../../assets/whatsapp_black_logo_icon.png'
 import LogoFacebook from '../../assets/social_facebook_fb.png'
 import LogoTwitter from '../../assets/social_Twitter.png'
 import LogoInstagram from '../../assets/instagram_black_logo_icon.png'
 import LogoPlayStoreAndroid from '../../assets/application_playstore_logo.png'
 import LogoAppleMac from '../../assets/apple_mac.png'
-import LogoEndeavor from '../../assets/scale-up-endeavor.png'
-import LogoGoogle from '../../assets/google-alumni-2021.png'
+
 
 
 
@@ -29,8 +28,8 @@ const Footer = () => {
                         <h3>NUESTRAS REDES Y APPS</h3>
                         <div className="cont-link-footer-redes-sociales">
                             <div className="cont-link-r-social-ttr">
-                                <Link className="lnk-footer-bql1a">
-                                    <img src={LogoYoutube} alt="" />
+                                <Link className="lnk-footer-bql1a" to="https://wa.link/tgxqso">
+                                    <img src={LogoWhatsapp} alt="" />
                                 </Link>
                             </div>
                             <div className="cont-link-r-social-ttr">

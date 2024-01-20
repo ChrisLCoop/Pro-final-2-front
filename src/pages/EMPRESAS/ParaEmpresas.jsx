@@ -599,9 +599,6 @@ const ParaEmpresas = () => {
                               <a href="">Boletin</a>
                               
                           </div>
-
-                        
-
                       </div>
                   </footer>
               </div>
