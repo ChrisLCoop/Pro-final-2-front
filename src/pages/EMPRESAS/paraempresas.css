@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
-/*
+
 *{
     margin: 0;
     padding: 0;
     
-}*/
+}
 
-/* HEADER */
 
 .cont-para-empresas-tlf{
     background-color: #fff;
-    z-index: 99;
+    padding-top: 2rem;
+    
 }
 
+
+/* HEADER */
 header{
     position: fixed;
     top: 0;
@@ -27,16 +29,20 @@ header{
     margin-bottom: 150px;
     z-index: 10;
     opacity: 0;
+    
+    
 }
 
 
 .logo1-cabezal img{
+    width: 100%;
     position: relative;
     bottom: 10px;
 }
 
 
 .menu1-cabezal nav{
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,6 +50,7 @@ header{
 }
 
 header ul{
+    
     position: relative;
     right: 20px;
     display: flex;
@@ -58,6 +65,7 @@ header ul{
 
 }
 .menu1-cabezal nav ul li a{
+    
     font-size: 13px;
     text-decoration: none;
     margin: 0px 15px;
@@ -86,11 +94,14 @@ header button{
     background-color: #0c0553;
 }
 
+
+
+
 /* CAJA 1  */
 
 
 .caja-empresa1{
-    padding-top: 100px;
+    padding-top: 80px;
     width: 100%;
     height: 100%;
     
@@ -161,6 +172,18 @@ b{
 }
 
 
+@media screen and (max-width:768px){
+    .img-empresa1{
+        display: none;
+    }
+    .botoncito-empresa{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+}
+
+
 /*  CAJA2 */
 
 .caja-empresa2{
@@ -183,6 +206,22 @@ b{
     margin-bottom: 50px;
 }
 
+.img-empresa2{
+    width: 100%;
+}
+
+@media screen and (max-width:768px){
+    .caja-empresa2{
+        flex-direction: column;
+        text-align: center;
+        width: 40%;
+        margin: 0 auto;
+    }
+    
+    .img-empresa2{
+        display: none;
+    }
+}
 
 
 
@@ -200,7 +239,8 @@ b{
 }
 
 .caja1-empresa3{
-    width: 276px;
+    width: 80%;
+    /* width: 276px; */
     height: 310px;
     margin-top: 94px;
     margin-left: 54px;
@@ -237,7 +277,8 @@ b{
 
 
 .caja2-empresa3{
-    width: 280px;
+    width: 80%;
+    /* width: 280px; */
     height: 310px;
     margin-top: 94px;
     margin-left: 44px;
@@ -273,7 +314,8 @@ b{
 }
 
 .caja3-empresa3{
-    width: 280px;
+    width: 80%;
+    /* width: 280px; */
     height: 310px;
     
     margin-top: 94px;
@@ -321,6 +363,13 @@ b{
 
 .fondo3-empresa3:hover{
     border: solid #216FF4;
+}
+
+@media screen and (max-width:768px) {
+    .container-empresa3{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 
@@ -402,6 +451,14 @@ b{
     color: #142f6d;
 }
 
+@media screen and (max-width:768px) {
+    .caja-empresa5{
+        flex-direction: column;
+        
+    }
+    
+}
+
 /* CAJA 6 */
 
 .container-empresa6{
@@ -422,22 +479,28 @@ b{
 
 .fondo-empresa6{
     width: 83%;
-    height: 500px;
+    height: 100%;
+    /* height: 560px; */
     background-color: #f4f9ff;
     margin: 0 auto;
     
 } 
 
 .caja1-empresa6{
+    
+    
     width: 352px;
-    height: 430px;
+    height: 100%;
+    /* height: 530px; */
     padding-left: 32px;
     
 }
 
 .caja2-empresa6{
-    width: 352px;
-    height: 500px;
+    
+     width: 352px;
+     height: 100%; 
+     /* height: 550px;  */
     border-left: dashed black 1px;
     padding-left: 35px;
     
@@ -445,8 +508,9 @@ b{
 }
 
 .caja3-empresa6{
-    width: 352px;
-    height: 500px;
+    width: 352px; 
+    height: 100%;
+    /* height: 650px; */
     border-left: dashed black 1px;
     padding-left: 35px;
 }
@@ -473,7 +537,7 @@ b{
 }
 
 .contenido6{
-    width: 85%;
+    width: 80%;
     margin-bottom: 30px;
     font-size: 16px;
     color: #36335c;
@@ -488,6 +552,18 @@ b{
     color: #6381bc;
 }
 
+@media screen and (max-width:768px) {
+    .box-empresa6{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+         
+    }
+    .fondo-empresa6{
+        width: 80%;
+    }
+    
+}
 /* CAJA 7 */
 
 .caja-empresa7{
@@ -498,6 +574,10 @@ b{
     flex-direction: column;
     align-items: center;
     margin-bottom: 40px;
+}
+
+.img-empresa7{
+    width: 100%;
 }
 
 .titulo7-empresa7{
@@ -520,6 +600,7 @@ b{
 .contenido7-empresa7 b{
     color: #36335c;
 }
+
 
 /* CAJA 8 */
 
@@ -846,16 +927,18 @@ b{
 
 .caja1-empresa10{
     padding-top: 55px;
-    width: 352px;
-    height: 480px;
+    width: 28%; 
+    height: 28%;
     padding-left: 120px;
     
 }
 
 .caja2-empresa10{
     padding-top: 55px;
-    width: 352px;
-    height: 480px;
+    width: 28%; 
+    height: 28%;
+    /* width: 352px;
+    height: 480px; */
     border-left: dashed black 1px;
     padding-left: 45px;
     
@@ -864,8 +947,10 @@ b{
 
 .caja3-empresa10{
     padding-top: 55px;
-    width: 390px;
-    height: 480px;
+    width: 28%; 
+    height: 28%;
+    /* width: 390px;
+    height: 480px; */
     border-left: dashed black 1px;
     padding-left: 45px;
 }
@@ -912,6 +997,18 @@ b{
     color: #217cf6;
 }
 
+@media screen and (max-width:768px) {
+    .box-empresa10{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caja1-empresa10{
+        padding-left: 0px;
+    }
+    
+}
+
 /* CAJA 11 */
 
 .ctnr-empresa11{
@@ -930,14 +1027,18 @@ b{
 }
 
 .ctnr-box-all{
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 28px;
+
 }
 
 .box2-empresa11{
+    /* width: 26%;
+    height: 38%; */
     width: 250px;
-    height: 250px;
+    height: 250px; 
     border: solid greenyellow;
     background-color: #216ff4;
     text-align: center;
@@ -959,6 +1060,7 @@ b{
 
  
 .texto1-empresa11{
+    
     padding: 30px;
     font-size: 34px;
     color: #0c0553;
@@ -969,6 +1071,8 @@ b{
 }
 
 .texto2-empresa11{
+    width: 100%;
+    text-align: center;
     padding: 21px;
     width: 210px;
     border-top: dashed white 1px;
@@ -976,6 +1080,14 @@ b{
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    
+}
+
+@media screen and (max-width:768px) {
+    .ctnr-box-all{
+        flex-direction: column;
+        align-items: center;
+    }
     
 }
 
@@ -1098,6 +1210,14 @@ b{
     box-shadow: 10px 10px 46px 0px rgba(209,207,209,1);
 }
 
+@media screen and (max-width:768px) {
+    .ctnr-empresa13{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
 /* CAJA 14 */
 
 .ctnr-empresa14{
@@ -1143,6 +1263,8 @@ b{
 }
 
 iframe{
+    width: 40%;
+    
     padding: 12px 12px 12px 12px;
     border: solid 2px whitesmoke;
     background-color: rgb(255, 255, 255);
@@ -1150,6 +1272,19 @@ iframe{
     bottom: 80px;
 }
 
+@media screen and (max-width:768px) {
+    .ctnr-empresa14 h3{
+        text-align: center;
+        padding-left: 0px;
+    }
+    .caja2-empresa14{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+   
+}
 /* CAJA 15 */
 
 .ctnr-empresa15{
@@ -1188,15 +1323,12 @@ iframe{
 }
 
 .caja2-empresa15{
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 30px;
     
     
-}
-
-.caja3-empresa15{
-    color: #0c0553;
 }
 
 .caja3-empresa15 h2{
@@ -1206,19 +1338,17 @@ iframe{
     font-weight: 700;
     color: #0c0553;
     margin-bottom: 25px;
-    
 }
 
-.caja3-empresa15 p{
+.caja3-empresa p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     text-align: center;
-    
-    
 }
 
 .caja3-empresa15{
-    width: 410px;
+    width: 100%;
+     /* width: 410px; */
     height: 690px;
     border: solid rgb(255, 255, 255);
     text-align: center;
@@ -1273,6 +1403,13 @@ iframe{
     background-color: #0c0553;
 }
 
+@media screen and (max-width:768px) {
+    .caja2-empresa15{
+        flex-direction: column;
+    }
+    
+}
+
 
 /* CAJA 16 */
 
@@ -1284,15 +1421,17 @@ iframe{
 }
 
 .caja1-empresa16{
-    padding: 85px;
-    width: 73%;
-    height: 650px;
+    padding: 50px 40px 50px 30px;
+    /* padding: 85px; */
+    width: 90%;
+    height: 100%;
     margin: 0 auto;
     border: solid black;
     display: flex;
     justify-content: center;
     background-color: #0c0553;
     border-radius: 10px;
+    border: solid greenyellow;
 }
 .titulo1-empresa16{
     font-size: 24px;
@@ -1338,7 +1477,8 @@ iframe{
 .lista1-empresa16{
     padding: 40px;
     padding-left: 60px;
-    width: 450px;
+    width: 100%;
+    /* width: 450px; */
     height: 640px;
     
     display: flex;
@@ -1348,6 +1488,7 @@ iframe{
 }
 
 .lista2-empresa16{
+    
     padding-left: 60px;
     width: 450px;
     height: 700px;
@@ -1358,6 +1499,7 @@ iframe{
 }
 
 .inp1-empresa16 input{
+    
     padding: 15px 170px 10px 8px;
     margin-bottom: 15px;
     border-radius: 6px;
@@ -1424,12 +1566,52 @@ iframe{
     background-color: #2d1dd8;
 }
 
+@media screen and (max-width:768px) {
+   
+    .iconos2-empresa16{
+        margin-bottom: 25px;
+    }
+
+   .iconos3-empresa16{
+    margin-bottom: 0px;
+   }
+
+    .lista1-empresa16{
+        
+        
+        margin-top: 150px;
+        margin-left: 40px;
+        padding-left: 0px;
+        align-items: center;
+        
+
+     }
+     .lista2-empresa16{
+        
+        padding-left: 0px;
+        padding-bottom: 0px;
+     }
+
+     .caja1-empresa16{
+        padding: 0px;
+        padding-bottom: 25px;
+        width: 94%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+ 
+    
+    
+}
+
 /* CAJA 17 */
 
 .ctnr-empresa17{
     width: 100%;
-    height: 940px;
+    height: 100%;
     background-color: #f4f8ff;
+    margin-bottom: 60px;
     
 }
 
@@ -1474,8 +1656,9 @@ iframe{
     color: #635f8b;
 }
 .card1-empresa17 {
-    width: 310px;
-    height: 460px;
+    
+    width: 310px; 
+    height: 550px; 
     
     background-color: #fff;
     border-radius: 10px;
@@ -1483,11 +1666,14 @@ iframe{
 }
 
 .card1-letras-empresa17{
-    width: 230px;
-    height: 150px;
+    
+    width: 68%;
+    /* width: 230px; */
+    /* height: 150px; */
+    height: 38%;
     
     padding-left: 45px;
-    margin-bottom: 53px;
+    margin-bottom: 15px;
 }
 
 .card1-letras-empresa17 h4{
@@ -1498,20 +1684,24 @@ iframe{
 }
 
 .line1-titulo h4{
-    
-    width: 80px;
+    width: 33%;
+    /* width: 80px; */
     padding-bottom: 8px;
     border-bottom: 1px solid #646591;
 }
 
 .card1-letras-empresa17 h3{
+    width: 140px;
+    height: 140px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #0c0553;
-    margin-bottom: 90px;
+    /* margin-bottom: 90px; */
+    
 }
 
 .card1-empresa17 a{
+    
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -1542,6 +1732,20 @@ iframe{
     background-color: #216ff4;
 }
 
+@media screen and (max-width:768px) {
+    
+    .ctnr3-empresa17{
+        width: 50%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        
+    }
+}
+
 /* CAJA 18 */
 
 .ctnr-empresa18{
@@ -1556,8 +1760,10 @@ iframe{
 
 .ctnr-empresa18 img{
     width: 25%;
+    height: 70%;
 }
 .letras-empresa18 p{
+    
     padding-top: 150px;
     font-size: 21px;
     font-family: 'Montserrat', sans-serif;
@@ -1582,6 +1788,19 @@ iframe{
     
 }
 
+@media screen and (max-width:768px) {
+    .letras-empresa18{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .ctnr-empresa18 img{
+        display: none;
+    }
+    
+}
 /* CAJA 19 - FOOTER */
 
 .ctnr-empresa19{
@@ -1597,18 +1816,21 @@ iframe{
     justify-content: space-around;
     border-bottom: 1.8px dashed white;
     
+    gap: 80px;
 }
 .img1-empresa19{
-    width: 35%;
+    width: 45%;
     margin-bottom: 50px;
 }
 
 .fila1-empresa19 p{
+    
     font-size: 15px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     line-height: 22px;
+    /* width: 380px; */
 
 }
 .img2-empresa19{
@@ -1620,8 +1842,10 @@ iframe{
     padding-left: 45px;
     padding-top: 55px;
     color: white;
-    width: 430px;
+    width: 450px;
     height: 350px;
+    
+    
     
 }
 
@@ -1673,6 +1897,37 @@ iframe{
     
 }
 
+@media screen and (max-width:768px) {
+    .ctnr1-empresa19{
+        flex-direction: column;
+        margin-bottom: 70px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ctnr-empresa19{
+        width: 100%;
+        height: 1450px;
+        
+    }
+
+    .fila1-empresa19{
+        width: 70%;
+    }
+
+    .ctnr1-empresa19{
+        
+        height: 830px;
+    }
+
+    .fila2-empresa19{
+        position:static;
+        width: 100%;
+    }
+
+    
+}
+
 /* FOOTER  */
 
 .footer-empresa19{
@@ -1681,11 +1936,11 @@ iframe{
     padding-top: 80px;
     display: flex;
     gap: 20px;
-    
 } 
 
 .l1-footer{
-    width: 170px;
+    
+    /* width: 110px; */
     height: 250px;
     
     display: flex;
@@ -1713,9 +1968,17 @@ iframe{
     font-weight: 700;
 }
 
+@media screen and (max-width:768px) {
+    .footer-empresa19{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
 
-@media screen and (max-width: 768px){
-
-    
-
+    .l1-footer{
+        width: 100%;
+        height: 100%;
+        position: static;
+        
+    }
 }
