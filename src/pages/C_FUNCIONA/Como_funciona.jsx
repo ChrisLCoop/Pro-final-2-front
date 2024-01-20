@@ -14,7 +14,7 @@ import Separador from "../../layouts/Separador";
 import Contenedor10 from "../../layouts/Contenedor10";
 import Contenedor11 from "../../layouts/Contenedor11";
 import Contenedor12 from "../../layouts/Contenedor12";
-
+import Contenedor13 from "../../layouts/Contenedor13"
 import PostHeader from '../../layouts/SECTOR/PostHeader'
 
 const Como_funciona = () => {
@@ -38,7 +38,8 @@ const Como_funciona = () => {
             <Contenedor11></Contenedor11>
             <Separador></Separador>
             <Contenedor12></Contenedor12>
-            
+            <Contenedor13></Contenedor13>
+            <Separador></Separador>
     </main>
     )
 }
