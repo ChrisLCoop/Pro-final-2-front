@@ -1,6 +1,6 @@
 import React from "react";
 import '../pages/C_FUNCIONA/como_funciona.css'
-
+import imagen5 from '../assets/img_brandon/imagen5.webp'
 const Contenedor7 = () => {
     return (
         <section class="contenedor">
@@ -16,7 +16,7 @@ const Contenedor7 = () => {
                     </a>
             </div>
             <div class="div_img div7-img">
-                <img class="imagenes_seccion imagen7" src="src/assets/img_brandon/imagen 5.webp" alt="imagen"/>
+                <img class="imagenes_seccion imagen7" src={imagen5} alt="imagen"/>
             </div>
         </section>
 

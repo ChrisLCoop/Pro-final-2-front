@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../pages/CURSOS/cursos.css'
-
+import imagen11 from '../../assets/imgcurso/image-removebg-preview.png'
 function Sector12() {
   return (
     <>
@@ -14,7 +14,7 @@ function Sector12() {
             <p>Desarrollar sitios web y aplicaciones web con HTML, CSS y JavaScript. Conozca las mejores prácticas y las últimas versiones de JavaScript. Estudie herramientas y frameworks del mercado como React, Angular, Webpack, jQuery y más. sepa cómo empezar con el front-end. Encuentra mas sobreEscuela Frontendo navega por esta página para ver todos nuestros cursos y capacitaciones.</p>
         </div>
         <div class="cursos2-1-2">
-            <img src="src/assets/imgcurso/image-removebg-preview.png" alt=""/>
+            <img src={imagen11} alt=""/>
         </div>
     </div>
     </section>

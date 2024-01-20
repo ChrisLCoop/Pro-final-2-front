@@ -1,11 +1,11 @@
 import React from "react";
 import '../pages/C_FUNCIONA/como_funciona.css'
-
+import imagen4 from '../assets/img_brandon/imagen4.webp'
 const Contenedor6 = () => {
     return (
         <section class="contenedor2">
             <div class="div_img astronauta-div">
-                <img class="imagenes_seccion astronauta" src='src/assets/img_brandon/imagen 4.webp' alt="imagen"/>
+                <img class="imagenes_seccion astronauta" src={imagen4} alt="imagen"/>
             </div>
             <div class="div_subtitulo div6">
                 <h2 class="seccion_titulos">¿Cómo ayuda esto a mi carrera?</h2>

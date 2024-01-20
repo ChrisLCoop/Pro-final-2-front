@@ -1,14 +1,17 @@
 import React from "react";
 import '../pages/C_FUNCIONA/como_funciona.css'
-
+import libro1 from '../assets/img_brandon/libro1.svg'
+import logolibro from '../assets/img_brandon/logolibro1.svg'
+import check from '../assets/svg_brandon/CHECK.svg'
+import interrogacion from '../assets/svg_brandon/interrogacion.svg'
 const Contenedor10 = () => {
     return (
         <section class="contenedor10">
         <h1>¿Sabes cuándo puedes empezar? <strong>¡Ahora!</strong></h1>
         <div class='cuadros'>
                     <div class="card">
-                        <img src="src/assets/img_brandon/libro1.svg" class="icono-card" alt=""/>
-                        <img src="src/assets/img_brandon/logolibro1.svg" class="imagen-card" alt=""/>
+                        <img src={libro1} class="icono-card" alt=""/>
+                        <img src={logolibro} class="imagen-card" alt=""/>
                         <h3 class="card-text-plus">PLUS</h3>
                         <div class="linea1-precio">
                             <div class="card-precios">
@@ -25,18 +28,18 @@ const Contenedor10 = () => {
                         </div>
                         <p class="efectivo">en efectivo PE$ 1.300</p>
                         <ul>
-                            <li><img class="check" src="src/assets/svg_brandon/CHECK.svg" alt=""/>Acesso a TODOS los cursos de alura <img src="src/assets/svg_brandon/interrogacion.svg" alt=""/></li>
-                            <li><img class="check" src="src/assets/svg_brandon/CHECK.svg" alt=""/>Alura challenges <img src="/SVG/interrogacion.svgsrc/assets/svg_brandon/interrogacion.svg" alt=""/></li>
-                            <li><img class="check" src="src/assets/svg_brandon/CHECK.svg" alt=""/>Casos alura <img src="src/assets/svg_brandon/interrogacion.svg" alt=""/></li>
-                            <li><img class="check" src="src/assets/svg_brandon/CHECK.svg" alt=""/>Certificado <img src="src/assets/svg_brandon/interrogacion.svg" alt=""/></li>
+                            <li><img class="check" src={check} alt=""/>Acesso a TODOS los cursos de alura <img src={interrogacion} alt=""/></li>
+                            <li><img class="check" src={check} alt=""/>Alura challenges <img src={interrogacion} alt=""/></li>
+                            <li><img class="check" src={check} alt=""/>Casos alura <img src={interrogacion} alt=""/></li>
+                            <li><img class="check" src={check} alt=""/>Certificado <img src={interrogacion} alt=""/></li>
                         </ul>
                         <a class="MATRICULATE" href="">MATRICULATE</a>
                     </div>
                     <div class="card2">
                         <div class="texto-img"></div>
                         <div class="icono-img"></div>
-                        <img src="src/assets/img_brandon/libro1.svg" class="icono-card" alt=""/>
-                        <img src="src/assets/img_brandon/logolibro1.svg" class="imagen-card" alt=""/>
+                        <img src={libro1} class="icono-card" alt=""/>
+                        <img src={logolibro} class="imagen-card" alt=""/>
                         <h3 class="card-text-plus">PLUS</h3>
                         <div class="linea1-precio">
                             <div class="card-precios">
@@ -53,12 +56,12 @@ const Contenedor10 = () => {
                         </div>
                         <p class="efectivo">en efectivo PE$ 1.300</p>
                         <ul>
-                            <li><img class="check" src="src/assets/svg_brandon/CHECK.svg" alt=""/>Acesso a TODOS los cursos de alura <img src="src/assets/svg_brandon/interrogacion.svg" alt=""/></li>
-                            <li><img class="check" src="src/assets/svg_brandon/CHECK.svg" alt=""/>Alura challenges <img src="src/assets/svg_brandon/interrogacion.svg" alt=""/></li>
-                            <li><img class="check" src="src/assets/svg_brandon/CHECK.svg" alt=""/>Casos alura <img src="src/assets/svg_brandon/interrogacion.svg" alt=""/></li>
-                            <li><img class="check" src="src/assets/svg_brandon/CHECK.svg" alt=""/>Certificado <img src="src/assets/svg_brandon/interrogacion.svg" alt=""/></li>
-                            <li class="borde-lista"><img class="check" src="src/assets/svg_brandon/CHECK.svg" alt=""/><strong>Luri</strong> Impulsado por ChatGPT<img src="/SVG/interrogacion.svg" alt=""/></li>
-                            <li class="borde-lista"><img class="check" src="src/assets/svg_brandon/CHECK.svg" alt=""/><strong>Alura idioma</strong> (Incluido curso de ingles para Devs) <img src="src/assets/svg_brandon/interrogacion.svg" alt=""/></li>
+                            <li><img class="check" src={check} alt=""/>Acesso a TODOS los cursos de alura <img src={interrogacion} alt=""/></li>
+                            <li><img class="check" src={check} alt=""/>Alura challenges <img src={interrogacion} alt=""/></li>
+                            <li><img class="check" src={check} alt=""/>Casos alura <img src={interrogacion} alt=""/></li>
+                            <li><img class="check" src={check} alt=""/>Certificado <img src={interrogacion} alt=""/></li>
+                            <li class="borde-lista"><img class="check" src={check} alt=""/><strong>Luri</strong> Impulsado por ChatGPT<img src={interrogacion} alt=""/></li>
+                            <li class="borde-lista"><img class="check" src={check} alt=""/><strong>Alura idioma</strong> (Incluido curso de ingles para Devs) <img src={interrogacion} alt=""/></li>
                         </ul>
                         <a class="MATRICULATE" href="">MATRICULATE</a>
                     </div>

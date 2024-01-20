@@ -1,12 +1,13 @@
 import React from "react";
 import '../pages/C_FUNCIONA/como_funciona.css'
-
+import svg1 from '../assets/svg_brandon/notebook-background-details.1697220797.svg'
+import imagen3 from '../assets/img_brandon/imagen3.png'
 const Contenedor4 = () => {
     return (
         <section class="contenedor2">
             <div class="div_img-4">
-                <img class="svg1" src="src/assets/svg_brandon/notebook-background-details.1697220797.svg" alt=""/>
-                <img class="imagenes_seccion laptop" src="src/assets/img_brandon/imagen 3.png" alt="imagen"/>
+                <img class="svg1" src={svg1} alt=""/>
+                <img class="imagenes_seccion laptop" src={imagen3} alt="imagen"/>
             </div>
             <div class="div_subtitulo">
                 <h2 class="seccion_titulos">Como son los cursos?</h2>
