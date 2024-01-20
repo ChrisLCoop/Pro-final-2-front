@@ -16,6 +16,9 @@ import ParaEmpresas from '../pages/EMPRESAS/ParaEmpresas'
 import Footer from '../layouts/FOOTER/Footer'
 
 
+
+
+
 const Router = () => {
   return (
     <BrowserRouter>
@@ -33,6 +36,7 @@ const Router = () => {
             <Route path='/cursos8' element={<Cursos8></Cursos8>}> </Route>
             <Route path='/c_funciona' element={<Como_funciona></Como_funciona>}></Route>
             <Route path='/para-empresas' element={<ParaEmpresas></ParaEmpresas>}> </Route>
+            
         </Routes>
         <Footer></Footer>
     </BrowserRouter>

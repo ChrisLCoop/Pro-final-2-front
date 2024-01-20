@@ -1,0 +1,43 @@
+
+.content-all-formulario{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #051933;
+}
+
+.cont-form{
+    width: 50%;
+    background: rgba(9,51,102,.4);
+    border: 0.5px solid #167bf7;
+    border-radius: 0.3125em;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cont-form h1{
+    padding-bottom: 2rem;
+}
+
+.form-control{
+    width: 300px;
+    
+}
+
+.col{
+    height: 30px;
+}
+  
+.container-form{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(217, 217, 217);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

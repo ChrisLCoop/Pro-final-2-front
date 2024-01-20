@@ -47,7 +47,6 @@ const ParaEmpresas = () => {
     <div className='cont-para-empresas-tlf'>
         <header>
         <a href="" class="logo1-cabeza"><img src={LogHead} alt="" /> </a>
-        
         <div class="menu1-cabezal">
           <nav>
             <ul>
