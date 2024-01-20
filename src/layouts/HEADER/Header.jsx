@@ -44,12 +44,12 @@ const Header = () => {
                         </div>
                         <div className="cont-ld-iz-mo">
                             <Link className='btn-link-a-mo' to="/c_funciona">
-                                <div className="cont-btn-t">
+                                <div className="cont-btn-t cont-btn-op-t">
                                     <p>COMO FUNCIONA</p>
                                 </div>
                             </Link>
                             <Link className='btn-link-a-mo' to="/para-empresas">
-                                <div className="cont-btn-t">
+                                <div className="cont-btn-t cont-btn-op-t">
                                     <p>PARA EMPRESAS</p>
                                 </div>
                             </Link>
