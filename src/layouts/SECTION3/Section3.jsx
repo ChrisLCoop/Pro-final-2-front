@@ -52,18 +52,18 @@ const Section3 = () => {
                     <div className="cont-img-ct3-link-card ">
                         <IconoCmd></IconoCmd>
                     </div>
-                    <h5>PROGRAMACIÓN</h5>
+                    <h5>INTELIGENCIA ARTIFICIAL</h5>
                 </div>
-                <Link className="lnk-sc3-crd-st" >Desde cero: principiante en programación</Link>
-                <Link className="lnk-sc3-crd-st" >APIs con Node.js e Express</Link>
-                <Link className="lnk-sc3-crd-st" >Aprende a programar en C# con Orientación a Objetos</Link>
-                <Link className="lnk-sc3-crd-st" >Aprende a programar en Java con Orientación a Objetos</Link>
-                <Link className="lnk-sc3-crd-st" >Aprenda a programar en JavaScript con enfoque en el back-end</Link>
-                <Link className="lnk-sc3-crd-st" >Aprende a programar en PHP</Link>
-                <Link className="lnk-sc3-crd-st" >Aprende a programar en Python con Orientación a Objetos</Link>
-                <Link className="lnk-sc3-crd-st" >Profundice en .NET con Arquitectura de Microservicios y RabbitMQ</Link>
+                <Link className="lnk-sc3-crd-st" to="/cursos">Desde cero: principiante en programación</Link>
+                <Link className="lnk-sc3-crd-st" to="/cursos2">APIs con Node.js e Express</Link>
+                <Link className="lnk-sc3-crd-st" to="/cursos3">Aprende a programar en C# con Orientación a Objetos</Link>
+                <Link className="lnk-sc3-crd-st" to="/cursos4">Aprende a programar en Java con Orientación a Objetos</Link>
+                <Link className="lnk-sc3-crd-st" to="/cursos5">Aprenda a programar en JavaScript con enfoque en el back-end</Link>
+                <Link className="lnk-sc3-crd-st" to="/cursos6">Aprende a programar en PHP</Link>
+                <Link className="lnk-sc3-crd-st" to="/cursos7">Aprende a programar en Python con Orientación a Objetos</Link>
+                <Link className="lnk-sc3-crd-st" to="/cursos8">Profundice en .NET con Arquitectura de Microservicios y RabbitMQ</Link>
                 <div className="link-direct-escuela-direction">
-                    <Link className="lnk-sc3-crd-st-sch" >Ver Centro</Link>
+                    <Link className="lnk-sc3-crd-st-sch" to="/c_funciona">Ver Centro</Link>
                 </div>
             </div>
             <div className="card-ct3-link-cursos">
@@ -71,7 +71,7 @@ const Section3 = () => {
                     <div className="cont-img-ct3-link-card ">
                         <IconoAsterisco></IconoAsterisco>
                     </div>
-                    <h5>PROGRAMACIÓN</h5>
+                    <h5>FRONT-END</h5>
                 </div>
                 <Link className="lnk-sc3-crd-st" >Desde cero: principiante en programación</Link>
                 <Link className="lnk-sc3-crd-st" >APIs con Node.js e Express</Link>
@@ -82,7 +82,7 @@ const Section3 = () => {
                 <Link className="lnk-sc3-crd-st" >Aprende a programar en Python con Orientación a Objetos</Link>
                 <Link className="lnk-sc3-crd-st" >Profundice en .NET con Arquitectura de Microservicios y RabbitMQ</Link>
                 <div className="link-direct-escuela-direction">
-                    <Link className="lnk-sc3-crd-st-sch" >Ver Centro</Link>
+                    <Link className="lnk-sc3-crd-st-sch" to="/c_funciona">Ver Centro</Link>
                 </div>
             </div>
             <div className="card-ct3-link-cursos">
@@ -90,7 +90,7 @@ const Section3 = () => {
                     <div className="cont-img-ct3-link-card ">
                         <IconoReact></IconoReact>
                     </div>
-                    <h5>PROGRAMACIÓN</h5>
+                    <h5>DATA SCIENCE</h5>
                 </div>
                 <Link className="lnk-sc3-crd-st" >Desde cero: principiante en programación</Link>
                 <Link className="lnk-sc3-crd-st" >APIs con Node.js e Express</Link>
@@ -101,7 +101,7 @@ const Section3 = () => {
                 <Link className="lnk-sc3-crd-st" >Aprende a programar en Python con Orientación a Objetos</Link>
                 <Link className="lnk-sc3-crd-st" >Profundice en .NET con Arquitectura de Microservicios y RabbitMQ</Link>
                 <div className="link-direct-escuela-direction">
-                    <Link className="lnk-sc3-crd-st-sch" >Ver Centro</Link>
+                    <Link className="lnk-sc3-crd-st-sch" to="/c_funciona">Ver Centro</Link>
                 </div>
             </div>
             <div className="card-ct3-link-cursos">
@@ -120,7 +120,7 @@ const Section3 = () => {
                 <Link className="lnk-sc3-crd-st" >Aprende a programar en Python con Orientación a Objetos</Link>
                 <Link className="lnk-sc3-crd-st" >Profundice en .NET con Arquitectura de Microservicios y RabbitMQ</Link>
                 <div className="link-direct-escuela-direction">
-                    <Link className="lnk-sc3-crd-st-sch" >Ver Centro</Link>
+                    <Link className="lnk-sc3-crd-st-sch" to="/c_funciona">Ver Centro</Link>
                 </div>
             </div>
             <div className="card-ct3-link-cursos">
@@ -128,7 +128,7 @@ const Section3 = () => {
                     <div className="cont-img-ct3-link-card ">
                         <IconoEye></IconoEye>
                     </div>
-                    <h5>PROGRAMACIÓN</h5>
+                    <h5>DEVOPS</h5>
                 </div>
                 <Link className="lnk-sc3-crd-st" >Desde cero: principiante en programación</Link>
                 <Link className="lnk-sc3-crd-st" >APIs con Node.js e Express</Link>
@@ -139,7 +139,7 @@ const Section3 = () => {
                 <Link className="lnk-sc3-crd-st" >Aprende a programar en Python con Orientación a Objetos</Link>
                 <Link className="lnk-sc3-crd-st" >Profundice en .NET con Arquitectura de Microservicios y RabbitMQ</Link>
                 <div className="link-direct-escuela-direction">
-                    <Link className="lnk-sc3-crd-st-sch" >Ver Centro</Link>
+                    <Link className="lnk-sc3-crd-st-sch" to="/c_funciona">Ver Centro</Link>
                 </div>
             </div>
             <div className="card-ct3-link-cursos">
@@ -147,7 +147,7 @@ const Section3 = () => {
                     <div className="cont-img-ct3-link-card ">
                         <IconoMobil></IconoMobil>
                     </div>
-                    <h5>PROGRAMACIÓN</h5>
+                    <h5>UX AND DEGIGN</h5>
                 </div>
                 <Link className="lnk-sc3-crd-st" >Desde cero: principiante en programación</Link>
                 <Link className="lnk-sc3-crd-st" >APIs con Node.js e Express</Link>
@@ -158,7 +158,7 @@ const Section3 = () => {
                 <Link className="lnk-sc3-crd-st" >Aprende a programar en Python con Orientación a Objetos</Link>
                 <Link className="lnk-sc3-crd-st" >Profundice en .NET con Arquitectura de Microservicios y RabbitMQ</Link>
                 <div className="link-direct-escuela-direction">
-                    <Link className="lnk-sc3-crd-st-sch" >Ver Centro</Link>
+                    <Link className="lnk-sc3-crd-st-sch" to="/c_funciona">Ver Centro</Link>
                 </div>
             </div>
             <div className="card-ct3-link-cursos">
@@ -166,7 +166,7 @@ const Section3 = () => {
                     <div className="cont-img-ct3-link-card ">
                         <IconoBombilla></IconoBombilla>
                     </div>
-                    <h5>PROGRAMACIÓN</h5>
+                    <h5>MOBILE</h5>
                 </div>
                 <Link className="lnk-sc3-crd-st" >Desde cero: principiante en programación</Link>
                 <Link className="lnk-sc3-crd-st" >APIs con Node.js e Express</Link>
@@ -177,7 +177,7 @@ const Section3 = () => {
                 <Link className="lnk-sc3-crd-st" >Aprende a programar en Python con Orientación a Objetos</Link>
                 <Link className="lnk-sc3-crd-st" >Profundice en .NET con Arquitectura de Microservicios y RabbitMQ</Link>
                 <div className="link-direct-escuela-direction">
-                    <Link className="lnk-sc3-crd-st-sch" >Ver Centro</Link>
+                    <Link className="lnk-sc3-crd-st-sch" to="/c_funciona">Ver Centro</Link>
                 </div>
             </div>
         </div>
@@ -185,11 +185,11 @@ const Section3 = () => {
             <div className="cont-blq54">
                 <div className="cont-bqq1a">
                     <h4>FIAP + Alura</h4>
-                    <h2>¡Sé parte del la major enseñanza tecnológica de Brasil!</h2>
+                    <h2>¡Sé parte del la major enseñanza tecnológica de Peru!</h2>
                     <p>¿Sabías que Alura se incorporó al Centro Universitario,<span> referencia en tecnología en Brasil?</span></p>
                     <p><span>DISCOVER POST TECH,</span> un proyecto inédito de la asociación<span> FIAP + ALURA</span>: cursos de posgrado únicos, 100% digitales, prácticos y asíncronos en las áreas de Dev, Cyber ​​Security y Data.</p>
                     <p>¡Vacantes limitadas!</p>
-                    <Link className='btn-link-s3' to="">
+                    <Link className='btn-link-s3' to="/c_funciona">
                         <div className="cont-matricula-s3c">
                             <p>SABER MÁS</p>
                         </div>

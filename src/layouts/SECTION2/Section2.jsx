@@ -20,14 +20,14 @@ const Section2 = () => {
                     </div>
                     <div className="dtl-cr2-st-ct">
                         <ul>
-                            <li><Link className='link-reference-st2'>Front-end</Link></li>
-                            <li><Link className='link-reference-st2'>Programación</Link> </li>
-                            <li><Link className='link-reference-st2'>Mobile</Link></li>
-                            <li><Link className='link-reference-st2'>Devops</Link></li>
-                            <li><Link className='link-reference-st2'>UX & Design</Link></li>
-                            <li><Link className='link-reference-st2'>Data Science</Link></li>
-                            <li><Link className='link-reference-st2'>Innovación y Gestion</Link></li>
-                            <li><Link className='link-reference-st2'>Inteligencia Artificial</Link></li>
+                            <li><Link className='link-reference-st2' to="/cursos2">Front-end</Link></li>
+                            <li><Link className='link-reference-st2' to="/cursos4">Programación</Link> </li>
+                            <li><Link className='link-reference-st2'to="/cursos7">Mobile</Link></li>
+                            <li><Link className='link-reference-st2' to="/cursos5">Devops</Link></li>
+                            <li><Link className='link-reference-st2' to="/cursos6">UX & Design</Link></li>
+                            <li><Link className='link-reference-st2' to="/cursos3">Data Science</Link></li>
+                            <li><Link className='link-reference-st2'to="/cursos8">Innovación y Gestion</Link></li>
+                            <li><Link className='link-reference-st2'to="/cursos">Inteligencia Artificial</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ const Section2 = () => {
                     <h2>La mejor escuela online de tecnología del Perú</h2>
                     <p>Sumérgete más profundamente y navega por otras áreas de la tecnología. Conviértete en profesional.</p>
                 </div>
-                <Link className='btn-link-s2' to="">
+                <Link className='btn-link-s2' to="c_funciona">
                         <div className="cont-matricula-s2c">
                             <p>MIRA COMO FUNCIONA</p>
                         </div>

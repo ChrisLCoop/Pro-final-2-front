@@ -26,31 +26,31 @@ const Section1 = () => {
             </div>
             <div className="content-cards-s1">
                 <div className="cards-s1-content-gr">
-                    <Link className='link-card-s1'>
+                    <Link className='link-card-s1' to="/cursos">
                         <div className="card-s1-t">
                             <IconoCmd></IconoCmd>
                             <h5 className='titulo-card-s1'>Escuela_</h5>
-                            <h4 className='subtitulo-card-s1'>PROGRAMACION</h4>
+                            <h4 className='subtitulo-card-s1'>INTELIGENCIA ARTIFICIAL</h4>
                             <p>Lógica, Python, PHP, Java, .NET, Node JS, c, Computación, Juegos, IoT y más...</p>
                         </div>
                     </Link>
-                    <Link className='link-card-s1'>
+                    <Link className='link-card-s1' to="/cursos2">
                         <div className="card-s1-t">
                             <IconoAsterisco></IconoAsterisco>
                             <h5 className='titulo-card-s2'>Escuela_</h5>
-                            <h4 className='subtitulo-card-s2'>PROGRAMACION</h4>
+                            <h4 className='subtitulo-card-s2'>FRONT-END</h4>
                             <p>Lógica, Python, PHP, Java, .NET, Node JS, c, Computación, Juegos, IoT y más...</p>
                         </div>
                     </Link>
-                    <Link className='link-card-s1'>
+                    <Link className='link-card-s1' to="/cursos3">
                         <div className="card-s1-t">
                             <IconoReact></IconoReact>
                             <h5 className='titulo-card-s3'>Escuela_</h5>
-                            <h4 className='subtitulo-card-s3'>PROGRAMACION</h4>
+                            <h4 className='subtitulo-card-s3'>DATA SCIENCE</h4>
                             <p>Lógica, Python, PHP, Java, .NET, Node JS, c, Computación, Juegos, IoT y más...</p>
                         </div>
                     </Link>
-                    <Link className='link-card-s1'>
+                    <Link className='link-card-s1' to="/cursos4">
                         <div className="card-s1-t">
                             <IconoAi></IconoAi>
                             <h5 className='titulo-card-s4'>Escuela_</h5>
@@ -58,35 +58,35 @@ const Section1 = () => {
                             <p>Lógica, Python, PHP, Java, .NET, Node JS, c, Computación, Juegos, IoT y más...</p>
                         </div>
                     </Link>
-                    <Link className='link-card-s1'>
+                    <Link className='link-card-s1' to="/cursos5">
                         <div className="card-s1-t">
                             <IconoGear></IconoGear>
                             <h5 className='titulo-card-s5'>Escuela_</h5>
-                            <h4 className='subtitulo-card-s5'>PROGRAMACION</h4>
+                            <h4 className='subtitulo-card-s5'>DEVOPS</h4>
                             <p>Lógica, Python, PHP, Java, .NET, Node JS, c, Computación, Juegos, IoT y más...</p>
                         </div>
                     </Link>
-                    <Link className='link-card-s1'>
+                    <Link className='link-card-s1' to="/cursos6">
                         <div className="card-s1-t">
                             <IconoEye></IconoEye>
                             <h5 className='titulo-card-s6'>Escuela_</h5>
-                            <h4 className='subtitulo-card-s6'>PROGRAMACION</h4>
+                            <h4 className='subtitulo-card-s6'>UX AND DESIGN</h4>
                             <p>Lógica, Python, PHP, Java, .NET, Node JS, c, Computación, Juegos, IoT y más...</p>
                         </div>
                     </Link>
-                    <Link className='link-card-s1'>
+                    <Link className='link-card-s1' to="/cursos7">
                         <div className="card-s1-t">
                             <IconoMobil></IconoMobil>
                             <h5 className='titulo-card-s7'>Escuela_</h5>
-                            <h4 className='subtitulo-card-s7'>PROGRAMACION</h4>
+                            <h4 className='subtitulo-card-s7'>MOBILE</h4>
                             <p>Lógica, Python, PHP, Java, .NET, Node JS, c, Computación, Juegos, IoT y más...</p>
                         </div>
                     </Link>
-                    <Link className='link-card-s1'>
+                    <Link className='link-card-s1' to="/cursos8">
                         <div className="card-s1-t">
                             <IconoBombilla></IconoBombilla>
                             <h5 className='titulo-card-s7'>Escuela_</h5>
-                            <h4 className='subtitulo-card-s7'>PROGRAMACION</h4>
+                            <h4 className='subtitulo-card-s7'>INNOVACION Y GESTION</h4>
                             <p>Lógica, Python, PHP, Java, .NET, Node JS, c, Computación, Juegos, IoT y más...</p>
                         </div>
                     </Link>
