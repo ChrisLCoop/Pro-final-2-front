@@ -80,6 +80,115 @@
     align-items: center;
 }
 
+/*----open--*/
+
+.content-open-menu{
+    position: relative;
+    
+}
+
+.dtl-menu-open-cls{
+    position: absolute;
+    top: -5rem;
+    left: -5rem;
+    background-color: rgba(0, 0, 0, 0.875);
+    height: 100vh;
+    width:0;
+    transform: translate(-10rem);
+    opacity: 0;
+    transition: all ease 0.8s;
+    
+}
+
+.content-search-flot-open{
+    position: relative;
+    padding-top: 8rem;
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+.content-search-flot-open .input-search-open{
+    
+    color: #338494;
+    border: 1px solid #338494;
+    padding: 0.6rem 1rem;
+    background-color: var(--background-only-header);
+    font-size: 1rem;
+    width: 90%;
+    outline: none;
+    
+}
+
+.input-search-open:focus{
+    border: 1px solid #338494;
+    color: #fff;
+}
+
+.content-search-flot-open img{
+    filter: invert(1);
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top: 8.7rem;
+    right: 4rem;
+    
+}
+
+.cont-ld-iz-mo{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 0.5rem;
+    padding-top: 2.5rem;
+}
+
+.btn-link-a-mo{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1rem;
+    font-weight: 600;
+    position: relative;
+}
+
+.btn-link-a-mo:hover{
+    color: var(--color-especialverdoso);
+    
+}
+
+.btn-link-a-mo ::after{
+    content: "";
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0.8rem;
+    width: 0rem;
+    height: 0.3rem;
+    transition: all ease 0.3s;
+}
+
+.btn-link-a-mo:hover ::after{
+    background-color: var(--color-especialverdoso);
+    width: 2rem;
+
+}
+
+.cont-btn-t{
+    padding-bottom: 2rem;
+}
+
+.position-om{
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
+
+.visibility-menu{
+    transform: translate(0rem);
+    width: 100vw;
+    opacity: 1;
+}
+
 /*----*/
 
 .cont-matricula{
@@ -174,6 +283,27 @@
     margin: 0.5rem;
     
 }
+
+.btn-header-close-icon{
+    position: absolute;
+    top: 3.8rem;
+    left: 1.2rem;
+    background-color: var(--background-only-header);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    z-index: 20;
+}
+
+.btn-close-h{
+    width: 24px;
+    height: 24px;
+    margin: 0.5rem;
+    
+}
+
+
 
 @media screen and (max-width:1280px) {
     .content-header{
